@@ -1,0 +1,30 @@
+package service;
+
+import java.util.List;
+
+import interfaces.Crud;
+import model.Produto;
+
+public class ProdutoService implements Crud<Produto> {
+
+	@Override
+	public void cadastrar(List<Produto> list) {
+		
+	}
+
+	@Override
+	public void listar(List<Produto> list) {
+		
+	}
+
+	@Override
+	public void alterar(List<Produto> list) {
+		
+	}
+
+	@Override
+	public void remover(List<Produto> list) {
+		
+	}
+
+}

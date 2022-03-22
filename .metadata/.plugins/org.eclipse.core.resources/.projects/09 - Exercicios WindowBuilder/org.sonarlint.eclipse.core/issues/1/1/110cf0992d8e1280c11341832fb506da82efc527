@@ -1,0 +1,39 @@
+
+c
+java:S1068"*Remove this unused "alunos" private field.(ÄÄæŠüÿÿÿÿ8óª‹û/H¶«RMAJORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ü’ðŠû/H»«RMINORZ
+CODE_SMELL
+m
+java:S1854E"9Remove this useless assignment to local variable "aluno".(£û‡“8óª‹û/H³«RMAJORZ
+CODE_SMELL
+†
+java:S1192+"JDefine a constant instead of duplicating this literal "Professor" 3 times.(ß§ð²ûÿÿÿÿ8«—®îú/H¬«RCRITICALZ
+CODE_SMELL
+d
+java:S1948"(Make "alunos" transient or serializable.(ÄÄæŠüÿÿÿÿ8§€¡‹û/Hº«RCRITICALZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8ü’ðŠû/H±«RMINORZ
+CODE_SMELL
+‚
+java:S11920"FDefine a constant instead of duplicating this literal "Aluno" 3 times.(‹Ó”èÿÿÿÿÿ8«—®îú/H½«RCRITICALZ
+CODE_SMELL
+]	java:S131>""Add a default case to this switch.(†²·¹úÿÿÿÿ8«—®îú/HÁ«RCRITICALZ
+CODE_SMELL
+a
+java:S1604:"(Make this anonymous inner class a lambda(—‚„ùÿÿÿÿ8÷îÒîú/H¸«RMAJORZ
+CODE_SMELL
+~
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öþÿÿÿÿH´«RCRITICALZ
+CODE_SMELL
+^
+java:S1481E"*Remove this unused "aluno" local variable.(£û‡“8óª‹û/H°«RMINORZ
+CODE_SMELL
+„
+java:S1301>"KReplace this "switch" statement by "if" statements to increase readability.(†²·¹úÿÿÿÿ8«—®îú/H¹«RMINORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8æþ°™û/H½¬RMINORZ
+CODE_SMELL

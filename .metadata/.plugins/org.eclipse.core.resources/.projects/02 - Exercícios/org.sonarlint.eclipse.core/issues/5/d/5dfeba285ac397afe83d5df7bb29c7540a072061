@@ -1,0 +1,30 @@
+
+e
+java:S6126
+"2Replace this String concatenation with Text block.(ú°©œ8·ÁªÙö/H¨RMAJORZ
+CODE_SMELL
+h
+java:S1481"0Remove this unused "votosMarina" local variable.( ÜÃöşÿÿÿÿ8Øà¨Ùö/H©RMINORZ
+CODE_SMELL
+h
+java:S1481"0Remove this unused "votosAmanda" local variable.(ˆºïãúÿÿÿÿ8Øà¨Ùö/H«RMINORZ
+CODE_SMELL
+[	java:S108")Either remove or fill this block of code.(Ç¿½ú8Øà¨Ùö/H­RMAJORZ
+CODE_SMELL
+k
+java:S1854
+"8Remove this useless assignment to local variable "voto".(ú°©œ8½”´Ùö/H®RMAJORZ
+CODE_SMELL
+f
+java:S1481".Remove this unused "votosCiro" local variable.(èëûæüÿÿÿÿ8Øà¨Ùö/H¯RMINORZ
+CODE_SMELL
+\
+java:S1481
+")Remove this unused "voto" local variable.(ú°©œ8½”´Ùö/H±RMINORZ
+CODE_SMELL
+e
+java:S1481"2Remove this unused "votosFernanda" local variable.(ó¥Óé8Øà¨Ùö/H³RMINORZ
+CODE_SMELL
+f
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8½”´Ùö/HµRMINORZ
+CODE_SMELL

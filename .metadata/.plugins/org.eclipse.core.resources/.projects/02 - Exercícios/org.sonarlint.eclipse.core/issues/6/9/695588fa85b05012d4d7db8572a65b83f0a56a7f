@@ -1,0 +1,11 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Ê€ÑùÿÿÿÿH×RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¹§ïHÖRMAJORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¯œ¶Øö/HèRMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¯œ¶Øö/HêRMINORZ
+CODE_SMELL

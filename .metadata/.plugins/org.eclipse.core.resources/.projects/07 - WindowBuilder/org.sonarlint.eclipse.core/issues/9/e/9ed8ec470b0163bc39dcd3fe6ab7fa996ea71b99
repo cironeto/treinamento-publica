@@ -1,0 +1,31 @@
+
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8¤Ëãú/H¦ˆRMINORZ
+CODE_SMELL
+~
+java:S3252+"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿHÜˆRCRITICALZ
+CODE_SMELL
+j
+java:S1128
+"6Remove this unused import 'javax.swing.JToggleButton'.(‚ô°˜8É´èãú/HàˆRMINORZ
+CODE_SMELL
+g
+java:S1128".Remove this unused import 'javax.swing.JTree'.(¦“îÉùÿÿÿÿ8É´èãú/HäˆRMINORZ
+CODE_SMELL
+…
+java:S1192:"IDefine a constant instead of duplicating this literal "Blumenau" 4 times.(è«€‰úÿÿÿÿ8ñ…€äú/HöˆRCRITICALZ
+CODE_SMELL
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±Àã›øÿÿÿÿH ˆRMINORZ
+CODE_SMELL
+d
+java:S1128"1Remove this unused import 'javax.swing.JSpinner'.(šD8É´èãú/HâˆRMINORZ
+CODE_SMELL
+g
+java:S1128".Remove this unused import 'javax.swing.JList'.(ù›ÂÃüÿÿÿÿ8„¬Ïãú/HÒˆRMINORZ
+CODE_SMELL
+l
+java:S1128"3Remove this unused import 'javax.swing.JSeparator'.(”‚ÏÃÿÿÿÿÿ8É´èãú/HæˆRMINORZ
+CODE_SMELL
+Z
+java:S1604"(Make this anonymous inner class a lambda(¤©ÒâüÿÿÿÿHßˆRMAJORZ
+CODE_SMELL

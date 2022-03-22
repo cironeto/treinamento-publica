@@ -1,0 +1,22 @@
+
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8–ç°æú/HëŠRMINORZ
+CODE_SMELL
+h
+java:S1128"4Remove this unused import 'javax.swing.JScrollPane'.(Ê¹“ý8„…Öæú/H¡‹RMINORZ
+CODE_SMELL
+a
+java:S1604<"(Make this anonymous inner class a lambda(æôŸƒúÿÿÿÿ8„…Öæú/HÁ‹RMAJORZ
+CODE_SMELL
+U
+java:S1643B"Use a StringBuilder instead.(´çœ—ÿÿÿÿÿ8„…Öæú/H¼‹RMINORZ
+CODE_SMELL
+k
+java:S1128"2Remove this unused import 'javax.swing.JTextArea'.(ô„ûìýÿÿÿÿ8¿¢òæú/HÉ‹RMINORZ
+CODE_SMELL
+~
+java:S3252+"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öþÿÿÿÿH¿‹RCRITICALZ
+CODE_SMELL
+Z
+java:S1604"(Make this anonymous inner class a lambda(¤©ÒâüÿÿÿÿH»‹RMAJORZ
+CODE_SMELL

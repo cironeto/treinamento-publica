@@ -1,0 +1,10 @@
+
+r
+java:S1118":Add a private constructor to hide the implicit public one.(˜È¿îşÿÿÿÿ8šéòù/HƒcRMAJORZ
+CODE_SMELL
+e
+java:S6126	"2Replace this String concatenation with Text block.(†ï“«8ÿğôù/H„cRMAJORZ
+CODE_SMELL
+
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "opcao".(ôöö8÷ùù/H…cRMINORZ
+CODE_SMELL

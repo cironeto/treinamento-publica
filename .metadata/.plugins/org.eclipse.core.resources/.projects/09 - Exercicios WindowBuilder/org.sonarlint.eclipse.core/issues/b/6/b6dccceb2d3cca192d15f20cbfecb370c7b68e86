@@ -1,0 +1,20 @@
+
+}
+java:S1192N"FDefine a constant instead of duplicating this literal "IMC: " 6 times.(®Œ¡8Ãğêú/HĞRCRITICALZ
+CODE_SMELL
+a
+java:S1604F"(Make this anonymous inner class a lambda(æôŸƒúÿÿÿÿ8Ãğêú/H¿RMAJORZ
+CODE_SMELL
+~
+java:S3252,"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿH´RCRITICALZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8½—§êú/H©RMINORZ
+CODE_SMELL
+Z
+java:S1604"(Make this anonymous inner class a lambda(¤©ÒâüÿÿÿÿH¶RMAJORZ
+CODE_SMELL
+h
+java:S1128
+"4Remove this unused import 'javax.swing.JOptionPane'.(÷‰Îé8‹ÿêú/HÙRMINORZ
+CODE_SMELL

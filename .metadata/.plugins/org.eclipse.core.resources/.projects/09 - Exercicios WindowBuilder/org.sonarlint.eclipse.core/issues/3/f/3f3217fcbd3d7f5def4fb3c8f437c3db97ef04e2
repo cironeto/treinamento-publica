@@ -1,0 +1,29 @@
+
+[
+java:S1604q"(Make this anonymous inner class a lambda(æ=8Ï¥·ìú/HòRMAJORZ
+CODE_SMELL
+\
+java:S1604Y"(Make this anonymous inner class a lambda(ôÇ8ùøĞìú/HöRMAJORZ
+CODE_SMELL
+\
+java:S1604B"(Make this anonymous inner class a lambda(Şñ¦æ8Ä“Âëú/HñRMAJORZ
+CODE_SMELL
+~
+java:S32525"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿHïRCRITICALZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8ƒç ëú/H¥RMINORZ
+CODE_SMELL
+Š	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ãñ¢üÿÿÿÿ8ô™Êìú/HõRMINORZ
+CODE_SMELL
+ƒ
+java:S1192="GDefine a constant instead of duplicating this literal "Tahoma" 5 times.(‹”¬øÿÿÿÿ8ÜÇÏëú/H÷RCRITICALZ
+CODE_SMELL
+Z
+java:S1604%"(Make this anonymous inner class a lambda(¤©ÒâüÿÿÿÿH‚‘RMAJORZ
+CODE_SMELL
+j
+java:S1128"6Remove this unused import 'javax.swing.JToggleButton'.(‚ô°˜8¸· ìú/H¨RMINORZ
+CODE_SMELL
+…	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£æ×£8ÜÇÏëú/HÿRMINORZ
+CODE_SMELL

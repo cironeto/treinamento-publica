@@ -1,0 +1,124 @@
+
+q	java:S106®"9Replace this use of System.out or System.err by a logger.(æÌÖ‰ÿÿÿÿÿ8óê“Ô÷/H¸~RMAJORZ
+CODE_SMELL
+l	java:S106¬"9Replace this use of System.out or System.err by a logger.(Áßµ8±ïÎÓ÷/H¹~RMAJORZ
+CODE_SMELL
+l	java:S106¶"9Replace this use of System.out or System.err by a logger.(ôÍ›8±ïÎÓ÷/Hº~RMAJORZ
+CODE_SMELL
+k	java:S106'"9Replace this use of System.out or System.err by a logger.(ìíï«8öÒéÒ÷/H»~RMAJORZ
+CODE_SMELL
+p	java:S106!"9Replace this use of System.out or System.err by a logger.(¯éğÙøÿÿÿÿ8íÍÒ÷/H¼~RMAJORZ
+CODE_SMELL
+q	java:S106Á"9Replace this use of System.out or System.err by a logger.(©‚¾”ûÿÿÿÿ8™ŒÓ÷/H½~RMAJORZ
+CODE_SMELL
+l	java:S106Ë"9Replace this use of System.out or System.err by a logger.(ìíï«8€¤úÓ÷/H¾~RMAJORZ
+CODE_SMELL
+‰
+java:S1192–"MDefine a constant instead of duplicating this literal "COLABORADOR " 3 times.(ßªßóşÿÿÿÿ8óê“Ô÷/H¿~RCRITICALZ
+CODE_SMELL
+l	java:S106ª"9Replace this use of System.out or System.err by a logger.(ğ×°Ó8¹ƒÒ÷/HÃ~RMAJORZ
+CODE_SMELL
+l	java:S106¥"9Replace this use of System.out or System.err by a logger.(î¹ë»8²ÓƒÓ÷/HÄ~RMAJORZ
+CODE_SMELL
+q	java:S106¾"9Replace this use of System.out or System.err by a logger.(ßªßóşÿÿÿÿ8£ËìÓ÷/HÅ~RMAJORZ
+CODE_SMELL
+q	java:S106À"9Replace this use of System.out or System.err by a logger.(­º™®şÿÿÿÿ8€¤úÓ÷/HÆ~RMAJORZ
+CODE_SMELL
+q	java:S106Ä"9Replace this use of System.out or System.err by a logger.(©‚¾”ûÿÿÿÿ8€¤úÓ÷/HÇ~RMAJORZ
+CODE_SMELL
+‰
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 131 to the 15 allowed.(Çµí‘8íÍÒ÷/HÈ~RCRITICALZ
+CODE_SMELL
+l	java:S106¼"9Replace this use of System.out or System.err by a logger.(ß¬ú8£ËìÓ÷/H”RMAJORZ
+CODE_SMELL
+r
+java:S1155’">Use isEmpty() to check whether the collection is empty or not.(„‰í8øŒ²Ô÷/H•RMINORZ
+CODE_SMELL
+l	java:S106©"9Replace this use of System.out or System.err by a logger.(Õıöª8¹ƒÒ÷/H—RMAJORZ
+CODE_SMELL
+q	java:S106»"9Replace this use of System.out or System.err by a logger.(ßªßóşÿÿÿÿ8óê“Ô÷/H˜RMAJORZ
+CODE_SMELL
+k	java:S106$"9Replace this use of System.out or System.err by a logger.(—Ñµ8íÍÒ÷/H™RMAJORZ
+CODE_SMELL
+~
+java:S1192—"GDefine a constant instead of duplicating this literal "NOME: " 3 times.(ß¬ú8óê“Ô÷/HšRCRITICALZ
+CODE_SMELL
+p	java:S106+"9Replace this use of System.out or System.err by a logger.(Ÿİóøÿÿÿÿ8à‰Ò÷/HRMAJORZ
+CODE_SMELL
+l	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(­Ô«¿8íÍÒ÷/HŸRMAJORZ
+CODE_SMELL
+q	java:S106Å"9Replace this use of System.out or System.err by a logger.(¯éğÙøÿÿÿÿ8¡‡“Ò÷/H RMAJORZ
+CODE_SMELL
+e
+java:S6126"2Replace this String concatenation with Text block.(¥öêÍ8¹ƒÒ÷/H¡RMAJORZ
+CODE_SMELL
+ˆ
+java:S1192>"RDefine a constant instead of duplicating this literal "Desenvolvedor Jr" 10 times.(‡÷†8™ŒÓ÷/H¢RCRITICALZ
+CODE_SMELL
+^
+java:S5411¢"*Use the primitive boolean expression here.(˜ôş¹8Õ¾óÒ÷/H­RMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8úù¥Ò÷/H°RMINORZ
+CODE_SMELL
+’
+java:S1192F"WDefine a constant instead of duplicating this literal "Arquiteto de Software" 10 times.(‡í‚äùÿÿÿÿ8™ŒÓ÷/H²RCRITICALZ
+CODE_SMELL
+q	java:S106Ï"9Replace this use of System.out or System.err by a logger.(Ÿİóøÿÿÿÿ8íÍÒ÷/H½RMAJORZ
+CODE_SMELL
+l	java:S106È"9Replace this use of System.out or System.err by a logger.(—Ñµ8¹ƒÒ÷/H¾RMAJORZ
+CODE_SMELL
+q	java:S106Õ"9Replace this use of System.out or System.err by a logger.(şÿ›üÿÿÿÿ8€¤úÓ÷/H¿RMAJORZ
+CODE_SMELL
+l	java:S106¨"9Replace this use of System.out or System.err by a logger.(ª‘í8Ãœ˜Ò÷/HÀRMAJORZ
+CODE_SMELL
+l	java:S106™"9Replace this use of System.out or System.err by a logger.(ı§³²8£ËìÓ÷/HÁRMAJORZ
+CODE_SMELL
+_
+java:S1125w"'Remove the unnecessary boolean literal.(©É­öøÿÿÿÿ8Õ¾óÒ÷/HÂRMINORZ
+CODE_SMELL
+`
+java:S1125›"'Remove the unnecessary boolean literal.(‚£‡ñûÿÿÿÿ8±ïÎÓ÷/HÄRMINORZ
+CODE_SMELL
+l	java:S106¿"9Replace this use of System.out or System.err by a logger.(ß¬ú8óê“Ô÷/HÆRMAJORZ
+CODE_SMELL
+l	java:S106¹"9Replace this use of System.out or System.err by a logger.(òÔÓß8€¤úÓ÷/HÇRMAJORZ
+CODE_SMELL
+
+java:S1192@"UDefine a constant instead of duplicating this literal "Desenvolvedor Pleno" 10 times.(ƒ¿´åøÿÿÿÿ8™ŒÓ÷/HÈRCRITICALZ
+CODE_SMELL
+p	java:S106/"9Replace this use of System.out or System.err by a logger.(¶£Çıÿÿÿÿÿ8¹ƒÒ÷/HÓRMAJORZ
+CODE_SMELL
+q	java:S106"9Replace this use of System.out or System.err by a logger.(ì¨Åƒşÿÿÿÿ8ÈÒ÷/HÔRMAJORZ
+CODE_SMELL
+q	java:S106Ù"9Replace this use of System.out or System.err by a logger.(™µ—ıÿÿÿÿ8øŒ²Ô÷/HÕRMAJORZ
+CODE_SMELL
+q	java:S106«"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8öÒéÒ÷/HÖRMAJORZ
+CODE_SMELL
+l	java:S106—"9Replace this use of System.out or System.err by a logger.(ß¬ú8ÿª•Ó÷/H×RMAJORZ
+CODE_SMELL
+„
+java:S1192˜"HDefine a constant instead of duplicating this literal "CARGO: " 3 times.(­º™®şÿÿÿÿ8óê“Ô÷/HØRCRITICALZ
+CODE_SMELL
+’
+java:S1192B"WDefine a constant instead of duplicating this literal "Desenvolvedor SÃªnior" 10 times.(Õ•Ôùÿÿÿÿ8™ŒÓ÷/HÜRCRITICALZ
+CODE_SMELL
+l	java:S106“"9Replace this use of System.out or System.err by a logger.(ïşŞÚ8íÍÒ÷/HçRMAJORZ
+CODE_SMELL
+q	java:S106½"9Replace this use of System.out or System.err by a logger.(­º™®şÿÿÿÿ8óê“Ô÷/HèRMAJORZ
+CODE_SMELL
+q	java:S106˜"9Replace this use of System.out or System.err by a logger.(­º™®şÿÿÿÿ8€¤úÓ÷/HéRMAJORZ
+CODE_SMELL
+q	java:S106š"9Replace this use of System.out or System.err by a logger.(ŒÖ¸ùÿÿÿÿ8Õ¾óÒ÷/HêRMAJORZ
+CODE_SMELL
+[
+java:S1125¢"'Remove the unnecessary boolean literal.(˜ôş¹8€¤úÓ÷/HëRMINORZ
+CODE_SMELL
+l	java:S106£"9Replace this use of System.out or System.err by a logger.(­É‡8£ËìÓ÷/HíRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¥öêÍ8¹ƒÒ÷/HîRMAJORZ
+CODE_SMELL
+q	java:S106Ó"9Replace this use of System.out or System.err by a logger.(¶£Çıÿÿÿÿÿ8óê“Ô÷/HïRMAJORZ
+CODE_SMELL
+q	java:S106–"9Replace this use of System.out or System.err by a logger.(ßªßóşÿÿÿÿ8¹ƒÒ÷/HğRMAJORZ
+CODE_SMELL

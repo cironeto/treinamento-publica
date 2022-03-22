@@ -1,0 +1,85 @@
+package crud_escola.formulario;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class MenuProfessor extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					MenuProfessor frame = new MenuProfessor();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public MenuProfessor() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 144);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnChamada = new JButton("Chamada");
+		btnChamada.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new FormularioChamada().setVisible(true);
+				dispose();
+			}
+		});
+		btnChamada.setBounds(10, 11, 131, 23);
+		contentPane.add(btnChamada);
+		
+		JButton btnProvas = new JButton("Criar Prova");
+		btnProvas.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new FormularioProvas().setVisible(true);
+				dispose();
+			}
+		});
+		btnProvas.setBounds(151, 11, 138, 23);
+		contentPane.add(btnProvas);
+		
+		JButton btnNotas = new JButton("Adicionar Notas");
+		btnNotas.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new FormularioNotas().setVisible(true);
+				dispose();
+			}
+		});
+		btnNotas.setBounds(299, 11, 132, 23);
+		contentPane.add(btnNotas);
+		
+		JButton btnVoltar = new JButton("Voltar");
+		btnVoltar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new FormularioInicio().setVisible(true);
+				dispose();
+			}
+		});
+		btnVoltar.setBounds(170, 71, 89, 23);
+		contentPane.add(btnVoltar);
+	}
+
+}

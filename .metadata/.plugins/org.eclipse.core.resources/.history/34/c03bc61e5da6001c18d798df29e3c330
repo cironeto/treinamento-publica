@@ -1,0 +1,91 @@
+package service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import interfaces.Crud;
+import model.Usuario;
+
+public class UsuarioService implements Crud<Usuario> {
+
+	@Override
+	public void cadastrar(List<Usuario> list) {
+		solicitaDadosESalvaArrayList(list);
+
+	}
+
+	@Override
+	public void listar(List<Usuario> list) {
+		JOptionPane.showMessageDialog(null, listaUsuariosRetornaString(list));
+	}
+
+	@Override
+	public void alterar(List<Usuario> list) {
+		int indiceUsuarioSelecionado = -1;
+		String lista = listaUsuariosRetornaString(list);
+		
+		do {
+			try {
+				indiceUsuarioSelecionado = (Integer
+						.parseInt(JOptionPane.showInputDialog("Selecione o ID do usuario para alterar \n\n" + lista)) - 1);
+			} catch (Exception e) {
+				JOptionPane.showMessageDialog(null, "Insira um numero válido");
+			}
+		}while(indiceUsuarioSelecionado < 0);
+		
+		if(indiceUsuarioSelecionado >= list.size()) {
+			JOptionPane.showMessageDialog(null, "Usuario não encontrado");
+		}else {
+			String username = JOptionPane.showInputDialog("USERNAME: ");
+			String senha = JOptionPane.showInputDialog("SENHA: ");
+			String nivel = JOptionPane.showInputDialog("NIVEL (admin, gerente, vendedor): ");
+			String nome = JOptionPane.showInputDialog("NOME: ");
+			String telefone = JOptionPane.showInputDialog("TELEFONE: ");
+			String email = JOptionPane.showInputDialog("EMAIL: ");
+			String resposta = JOptionPane.showInputDialog("RESPOSTA SECRETA (qual nome do seu pet?): ");
+
+			list.set(indiceUsuarioSelecionado, new Usuario(username, senha, nivel, nome, telefone, email, resposta));
+		}	
+	}
+
+	@Override
+	public void remover(List<Usuario> list) {
+		String lista = listaUsuariosRetornaString(list);
+		
+		int indiceUsuarioSelecionado = (Integer
+				.parseInt(JOptionPane.showInputDialog("Selecione o ID do usuario para remover \n\n" + lista)) - 1);
+
+		list.remove(indiceUsuarioSelecionado);
+	}
+	
+	private static String listaUsuariosRetornaString(List<Usuario> usuarios) {
+		String lista = "USUÁRIOS \n";
+
+		for (int i = 0; i < usuarios.size(); i++) {
+			lista += "ID " + (i + 1) + ": ";
+			lista += usuarios.get(i).getUsername() + ", ";
+			lista += usuarios.get(i).getNivel();
+			lista += "\n";
+		}
+		return lista;
+	}
+	
+	private static void solicitaDadosESalvaArrayList(List<Usuario> usuarios) {
+			String username = JOptionPane.showInputDialog("USERNAME: ");
+			String senha = JOptionPane.showInputDialog("SENHA: ");
+			String nivel = JOptionPane.showInputDialog("NIVEL ('gerente', 'vendedor'): ");
+			String nome = JOptionPane.showInputDialog("NOME: ");
+			String telefone = JOptionPane.showInputDialog("TELEFONE: ");
+			String email = JOptionPane.showInputDialog("EMAIL: ");
+			String resposta = JOptionPane.showInputDialog("RESPOSTA SECRETA (qual nome do seu pet?): ");			
+			
+			if (nivel.equals("gerente") || nivel.equals("vendedor")) {
+				usuarios.add(new Usuario(username, senha, nivel, nome, telefone, email, resposta));
+			} else {
+				JOptionPane.showMessageDialog(null, "Não permitido cadastrar esse nível ou não é possível cadastrar outro 'admin'");
+			}			
+			
+	}
+}

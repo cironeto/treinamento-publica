@@ -1,0 +1,20 @@
+package crud_escola.service;
+
+import javax.swing.table.DefaultTableModel;
+
+import crud_escola.dados.Dados;
+import crud_escola.modelo.Aluno;
+
+public class AlunoService {
+
+	public static DefaultTableModel listaDadosAlunoSelecionado(Aluno aluno) {
+		DefaultTableModel defaultTableModel = new DefaultTableModel();
+
+		defaultTableModel.addColumn("Nome");
+
+		defaultTableModel.addRow(new Object[] { aluno.getNome() });
+
+		return defaultTableModel;
+	}
+
+}

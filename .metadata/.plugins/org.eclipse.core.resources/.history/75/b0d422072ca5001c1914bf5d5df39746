@@ -1,0 +1,11 @@
+package autenticacao;
+
+public class Usuario {
+	private String username;
+	private String senha;
+	private String nivel;
+	private String telefone;
+	private String email;
+	private String perguntaSecreta;
+
+}

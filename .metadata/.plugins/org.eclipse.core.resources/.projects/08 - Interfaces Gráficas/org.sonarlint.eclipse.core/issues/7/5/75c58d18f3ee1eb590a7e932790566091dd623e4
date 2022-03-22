@@ -1,0 +1,23 @@
+
+a
+java:S1444
+".Make this "public static clientes" field final(œß58Èİ¢äú/HİŠRMINORZ
+CODE_SMELL
+P
+java:S2386
+"Make this member "protected".(œß58Èİ¢äú/HÚŠRMINORZ
+CODE_SMELL
+›
+java:S1319
+"hThe type of "clientes" should be an interface such as "List" rather than the implementation "ArrayList".(œß58Èİ¢äú/HØŠRMINORZ
+CODE_SMELL
+d
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Èİ¢äú/HÛŠRMINORZ
+CODE_SMELL
+‡
+java:S1104
+"TMake clientes a static final constant or non-public and provide accessors if needed.(œß58Èİ¢äú/HŞŠRMINORZ
+CODE_SMELL
+n
+java:S1118":Add a private constructor to hide the implicit public one.(ƒÍØÙ8Èİ¢äú/HßŠRMAJORZ
+CODE_SMELL

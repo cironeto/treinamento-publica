@@ -1,0 +1,11 @@
+package model;
+
+public class Vendedor extends Usuario{
+	private String setor;
+	
+
+	
+	
+	
+	
+}

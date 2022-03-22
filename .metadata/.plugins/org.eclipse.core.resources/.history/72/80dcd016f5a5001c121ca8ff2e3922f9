@@ -1,0 +1,17 @@
+package interfaces;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.Usuario;
+
+public interface CrudUsuario {
+	
+	public void cadastrar(List<Usuario> usuarios);
+	public String listar(List<Usuario> usuarios);
+	public void alterar(List<Usuario> usuarios);
+	public void remover(List<Usuario> usuarios);
+	
+	
+
+}

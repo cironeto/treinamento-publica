@@ -1,0 +1,116 @@
+package service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import interfaces.Crud;
+import model.Usuario;
+
+public class UsuarioService implements Crud<Usuario> {
+
+	@Override
+	public void cadastrar(List<Usuario> list) {
+		solicitaDadosUsuarioESalvaArrayList(list);
+
+	}
+
+	@Override
+	public void listar(List<Usuario> list) {
+		JOptionPane.showMessageDialog(null, listaUsuariosRetornaString(list));
+	}
+
+	@Override
+	public void alterar(List<Usuario> list) {
+		int indiceUsuarioSelecionado = -1;
+
+		do {
+			try {
+				indiceUsuarioSelecionado = (Integer.parseInt(JOptionPane.showInputDialog(
+						"Selecione o ID do usuario para alterar \n\n" + listaUsuariosRetornaString(list))) - 1);
+			} catch (Exception e) {
+				JOptionPane.showMessageDialog(null, "Insira um numero válido");
+			}
+		} while (indiceUsuarioSelecionado < 0);
+
+		if (indiceUsuarioSelecionado >= list.size()) {
+			JOptionPane.showMessageDialog(null, "Usuario não encontrado");
+		} else {
+			solicitaDadosUsuarioEAtualizaArrayList(list, indiceUsuarioSelecionado);
+		}
+	}
+
+	@Override
+	public void remover(List<Usuario> list) {
+		try {
+			int indiceUsuarioSelecionado = (Integer.parseInt(JOptionPane
+					.showInputDialog("Selecione o ID do usuario para remover \n\n" + listaUsuariosRetornaString(list)))
+					- 1);
+			if (indiceUsuarioSelecionado != LoginService.retornaIndiceUsuarioAutenticado()) {
+				list.remove(indiceUsuarioSelecionado);
+			} else {
+				JOptionPane.showMessageDialog(null, "Não é possível remover o próprio usuario");
+			}
+
+		} catch (Exception e) {
+			JOptionPane.showMessageDialog(null, "Insira um numero válido");
+		}
+
+	}
+
+	private static String listaUsuariosRetornaString(List<Usuario> usuarios) {
+		String lista = "USUÁRIOS \n";
+
+		for (int i = 0; i < usuarios.size(); i++) {
+			lista += "ID " + (i + 1) + ": ";
+			lista += usuarios.get(i).getUsername() + ", ";
+			lista += usuarios.get(i).getNivel();
+			lista += "\n";
+		}
+		return lista;
+	}
+
+	private static void solicitaDadosUsuarioESalvaArrayList(List<Usuario> usuarios) {
+		String username = JOptionPane.showInputDialog("USERNAME: ");
+		String senha = JOptionPane.showInputDialog("SENHA: ");
+		String nivel = JOptionPane.showInputDialog("NIVEL ('gerente', 'vendedor'): ");
+		String nome = JOptionPane.showInputDialog("NOME: ");
+		String telefone = JOptionPane.showInputDialog("TELEFONE: ");
+		String email = JOptionPane.showInputDialog("EMAIL: ");
+		String resposta = JOptionPane.showInputDialog("RESPOSTA SECRETA (qual nome do seu pet?): ");
+
+		if (nivel.equals("gerente") || nivel.equals("vendedor")) {
+			if (!existeUsername(usuarios, username)) {
+				usuarios.add(new Usuario(username, senha, nivel, nome, telefone, email, resposta));
+			}else {
+				JOptionPane.showMessageDialog(null, "Username já cadastrado");
+			}
+		} else {
+			JOptionPane.showMessageDialog(null,
+					"Não permitido cadastrar esse nível ou não é possível cadastrar outro 'admin'");
+		}
+	}
+
+	private static void solicitaDadosUsuarioEAtualizaArrayList(List<Usuario> usuarios, int indiceUsuarioSelecionado) {
+		String username = JOptionPane.showInputDialog("USERNAME: ");
+		String senha = JOptionPane.showInputDialog("SENHA: ");
+		String nivel = usuarios.get(indiceUsuarioSelecionado).getNivel();
+		String nome = JOptionPane.showInputDialog("NOME: ");
+		String telefone = JOptionPane.showInputDialog("TELEFONE: ");
+		String email = JOptionPane.showInputDialog("EMAIL: ");
+		String resposta = JOptionPane.showInputDialog("RESPOSTA SECRETA (qual nome do seu pet?): ");
+
+		usuarios.set(indiceUsuarioSelecionado, new Usuario(username, senha, nivel, nome, telefone, email, resposta));
+	}
+
+	private static boolean existeUsername(List<Usuario> usuarios, String username) {
+		boolean usernameRepetido = false;
+		for (int i = 0; i < usuarios.size(); i++) {
+			if (username.equals(usuarios.get(i).getUsername())) {
+				usernameRepetido =  true;
+			}
+		}
+		return usernameRepetido;
+	}
+}

@@ -1,0 +1,12 @@
+ckage model;
+
+public class Curso {
+	private String nome;
+	private int duracaoMeses;
+
+	
+	
+	
+	
+
+}

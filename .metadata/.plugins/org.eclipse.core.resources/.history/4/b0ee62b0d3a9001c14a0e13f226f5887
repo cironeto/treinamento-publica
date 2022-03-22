@@ -1,0 +1,22 @@
+package crud_escola.dados;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import crud_escola.modelo.Aluno;
+
+public class Dados {
+	
+	public static List<Aluno> alunos = new ArrayList<>();
+	
+	public static List<Aluno> instanciaAlunosAdicionaLista(){
+		Dados.alunos.add(new Aluno("Ciro Vergueiro Ribeiro Neto", new ArrayList<>(), new ArrayList<>()));
+		Dados.alunos.add(new Aluno("Amanda Rafael Martins", new ArrayList<>(), new ArrayList<>()));
+		Dados.alunos.add(new Aluno("Maria Fernanda Corsi", new ArrayList<>(), new ArrayList<>()));
+		Dados.alunos.add(new Aluno("Marina Guarinelo Ribeiro", new ArrayList<>(), new ArrayList<>()));
+		Dados.alunos.add(new Aluno("Ciro Baldassari Ribeiro", new ArrayList<>(), new ArrayList<>()));
+		
+		return alunos;
+	}
+
+}

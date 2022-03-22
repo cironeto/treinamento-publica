@@ -1,0 +1,24 @@
+
+‘
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(”÷Æùÿÿÿÿ8Ã³½óö/H™uRMINORZ
+CODE_SMELL
+ˆ	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¶ïÁúÿÿÿÿ8‰›Ñóö/HšuRMINORZ
+CODE_SMELL
+k	java:S106("9Replace this use of System.out or System.err by a logger.(½ğìù8‰›Ñóö/H›uRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¨«ùïøÿÿÿÿ8‚„¤óö/HœuRMAJORZ
+CODE_SMELL
+k	java:S1060"9Replace this use of System.out or System.err by a logger.(Ñ³ëİ8‰›Ñóö/HuRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¹Ó©£úÿÿÿÿ8‚„¤óö/HuRMAJORZ
+CODE_SMELL
+k	java:S106 "9Replace this use of System.out or System.err by a logger.(Á»£Ÿ8„øÈóö/HŸuRMAJORZ
+CODE_SMELL
+ˆ	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç±úúûÿÿÿÿ8‰›Ñóö/H uRMINORZ
+CODE_SMELL
+ƒ	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸©ŸĞ8‰›Ñóö/H¡uRMINORZ
+CODE_SMELL
+k	java:S1068"9Replace this use of System.out or System.err by a logger.(÷İË“8‰›Ñóö/H¢uRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‡›ñ¸ÿÿÿÿÿ8Ã³½óö/H£uRMAJORZ
+CODE_SMELL

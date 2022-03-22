@@ -1,0 +1,172 @@
+
+q	java:S106°"9Replace this use of System.out or System.err by a logger.(¡ÒâĞúÿÿÿÿ8¢–»È÷/HÉ&RMAJORZ
+CODE_SMELL
+†
+java:S1192h"KDefine a constant instead of duplicating this literal " / VALOR: " 4 times.(°õö¼øÿÿÿÿ8™•ÓÆ÷/Hğ!RCRITICALZ
+CODE_SMELL
+p	java:S106A"9Replace this use of System.out or System.err by a logger.(ùşúáÿÿÿÿÿ8™•ÓÆ÷/Hå!RMAJORZ
+CODE_SMELL
+l	java:S106Ø"9Replace this use of System.out or System.err by a logger.(íÔ…Ó8ÄúÉ÷/HŠ*RMAJORZ
+CODE_SMELL
+q
+java:S1854\"9Remove this useless assignment to local variable "valor".(×…ô¦úÿÿÿÿ8²ÙŒÆ÷/Hî RMAJORZ
+CODE_SMELL
+q	java:S106Û"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8œÛøÆ÷/Hê"RMAJORZ
+CODE_SMELL
+q	java:S106‡"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8™•ÓÆ÷/H‘1RMAJORZ
+CODE_SMELL
+
+java:S1192k"WDefine a constant instead of duplicating this literal " / IMPOSTOS FEDERAIS: " 4 times.(ÉËäû8™•ÓÆ÷/Hì!RCRITICALZ
+CODE_SMELL
+f
+java:S1121M".Extract the assignment out of this expression.(àğí‘şÿÿÿÿ8²ÙŒÆ÷/Hñ RMAJORZ
+CODE_SMELL
+q	java:S106Ú"9Replace this use of System.out or System.err by a logger.(İ§Ğÿÿÿÿÿ8ƒ½€É÷/HË'RMAJORZ
+CODE_SMELL
+l	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(şÏ„ä8ÛŞ±Å÷/H×RMAJORZ
+CODE_SMELL
+k	java:S106{"9Replace this use of System.out or System.err by a logger.(¹”æ8“¼×ª÷/H¦!RMAJORZ
+CODE_SMELL
+q	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8šÉŒÊ÷/HÖ1RMAJORZ
+CODE_SMELL
+f
+java:S1121a".Extract the assignment out of this expression.(»…åÔøÿÿÿÿ8²ÙŒÆ÷/Hò RMAJORZ
+CODE_SMELL
+p	java:S106q"9Replace this use of System.out or System.err by a logger.(éĞ½ûıÿÿÿÿ8“¼×ª÷/HÂRMAJORZ
+CODE_SMELL
+“
+java:S1192j"XDefine a constant instead of duplicating this literal " / IMPOSTOS ESTADUAIS: " 4 times.(Åµ€Íùÿÿÿÿ8™•ÓÆ÷/Hü!RCRITICALZ
+CODE_SMELL
+k	java:S106Ç"9Replace this use of System.out or System.err by a logger.(Ğß8ÄúÉ÷/H’1RMAJORZ
+CODE_SMELL
+
+java:S1192i"YDefine a constant instead of duplicating this literal " / IMPOSTOS MUNICIPAIS: " 4 times.(Ñ™„ö8™•ÓÆ÷/Hø!RCRITICALZ
+CODE_SMELL
+l	java:S106ë"9Replace this use of System.out or System.err by a logger.(™ïÒ¦8šÉŒÊ÷/Hİ-RMAJORZ
+CODE_SMELL
+l	java:S106…"9Replace this use of System.out or System.err by a logger.(Çÿ‚Ú8ãÌ€Ê÷/HØ,RMAJORZ
+CODE_SMELL
+f
+java:S1121W".Extract the assignment out of this expression.(ö½´‰ùÿÿÿÿ8ÛŞ±Å÷/HßRMAJORZ
+CODE_SMELL
+k	java:S106¼"9Replace this use of System.out or System.err by a logger.(ÑÚÖF8İ½«Ç÷/HÒ$RMAJORZ
+CODE_SMELL
+q	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(™µ—ıÿÿÿÿ8ŸÚëÉ÷/H™1RMAJORZ
+CODE_SMELL
+q	java:S106Í"9Replace this use of System.out or System.err by a logger.(şÿ›üÿÿÿÿ8šÉŒÊ÷/HÛ-RMAJORZ
+CODE_SMELL
+p	java:S1066"9Replace this use of System.out or System.err by a logger.(îƒÅÿÿÿÿÿ8œÛøÆ÷/Hé"RMAJORZ
+CODE_SMELL
+ˆ
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 91 to the 15 allowed.(Çµí‘8ÛŞ±Å÷/HÌRCRITICALZ
+CODE_SMELL
+k	java:S106/"9Replace this use of System.out or System.err by a logger.(ë‡¼«8ÛŞ±Å÷/Hõ RMAJORZ
+CODE_SMELL
+q	java:S106œ"9Replace this use of System.out or System.err by a logger.(Ìƒ‚¹ıÿÿÿÿ8ÛŞ±Å÷/HŞRMAJORZ
+CODE_SMELL
+k	java:S106›"9Replace this use of System.out or System.err by a logger.(Ğß8ŸÚëÉ÷/HØ1RMAJORZ
+CODE_SMELL
+q	java:S106­"9Replace this use of System.out or System.err by a logger.(ø¤şÿÿÿÿ8ŸÚëÉ÷/H‘,RMAJORZ
+CODE_SMELL
+k	java:S106s"9Replace this use of System.out or System.err by a logger.(ç°õµ8“¼×ª÷/HÑRMAJORZ
+CODE_SMELL
+l	java:S106™"9Replace this use of System.out or System.err by a logger.(˜«‹‘8ãÌ€Ê÷/HÍ1RMAJORZ
+CODE_SMELL
+p	java:S106v"9Replace this use of System.out or System.err by a logger.(“µ¤Óúÿÿÿÿ8ıŒšÇ÷/HÚ#RMAJORZ
+CODE_SMELL
+l	java:S106Ö"9Replace this use of System.out or System.err by a logger.(†©Á­8ıŒšÇ÷/HŒ'RMAJORZ
+CODE_SMELL
+q
+java:S1854R"9Remove this useless assignment to local variable "valor".(œÖˆ»şÿÿÿÿ8²ÙŒÆ÷/Hì RMAJORZ
+CODE_SMELL
+q
+java:S1854a"9Remove this useless assignment to local variable "valor".(»…åÔøÿÿÿÿ8²ÙŒÆ÷/Hï RMAJORZ
+CODE_SMELL
+l	java:S106‰"9Replace this use of System.out or System.err by a logger.(¹”æ8™•ÓÆ÷/Hé!RMAJORZ
+CODE_SMELL
+q	java:S106É"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ŸÚëÉ÷/HĞ1RMAJORZ
+CODE_SMELL
+q	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(±æ©úÿÿÿÿ8¢–»È÷/HÏ1RMAJORZ
+CODE_SMELL
+f
+java:S1121\".Extract the assignment out of this expression.(×…ô¦úÿÿÿÿ8²ÙŒÆ÷/Hğ RMAJORZ
+CODE_SMELL
+k	java:S106Ô"9Replace this use of System.out or System.err by a logger.(šÚ"8™•ÓÆ÷/Hê!RMAJORZ
+CODE_SMELL
+l	java:S106¯"9Replace this use of System.out or System.err by a logger.(á˜Õ8œÛøÆ÷/HÕ1RMAJORZ
+CODE_SMELL
+„
+java:S1192i"NDefine a constant instead of duplicating this literal " / SEGMENTO: " 3 times.(Ñ™„ö8œÛøÆ÷/Hï"RCRITICALZ
+CODE_SMELL
+w
+java:S1481¶"CRemove this unused "totalImpostoMunicipalVestuario" local variable.(ƒ¸½¥8¡í€Ï÷/HÚ1RMINORZ
+CODE_SMELL
+f
+java:S1121R".Extract the assignment out of this expression.(œÖˆ»şÿÿÿÿ8²ÙŒÆ÷/Hó RMAJORZ
+CODE_SMELL
+l	java:S106Å"9Replace this use of System.out or System.err by a logger.(˜«‹‘8ƒ½€É÷/H“1RMAJORZ
+CODE_SMELL
+l	java:S106±"9Replace this use of System.out or System.err by a logger.(ÜÙÏô8šÉŒÊ÷/HÜ-RMAJORZ
+CODE_SMELL
+q
+java:S1854M"9Remove this useless assignment to local variable "valor".(àğí‘şÿÿÿÿ8–´ÁÅ÷/H˜RMAJORZ
+CODE_SMELL
+l	java:S106Ã"9Replace this use of System.out or System.err by a logger.(‘Ú¥8ıŒšÇ÷/HÎ1RMAJORZ
+CODE_SMELL
+l	java:S106•"9Replace this use of System.out or System.err by a logger.(ÓŞÀ×8ÛŞ±Å÷/HØRMAJORZ
+CODE_SMELL
+p	java:S1062"9Replace this use of System.out or System.err by a logger.(Õïîğùÿÿÿÿ8ÛŞ±Å÷/HÛRMAJORZ
+CODE_SMELL
+p	java:S106t"9Replace this use of System.out or System.err by a logger.(ˆñ‹¼ıÿÿÿÿ8“¼×ª÷/HÇRMAJORZ
+CODE_SMELL
+k	java:S106&"9Replace this use of System.out or System.err by a logger.(ÆÀûı8ıŒšÇ÷/HÛ#RMAJORZ
+CODE_SMELL
+q
+java:S1854W"9Remove this useless assignment to local variable "valor".(ö½´‰ùÿÿÿÿ8²ÙŒÆ÷/Hí RMAJORZ
+CODE_SMELL
+l	java:S106Ù"9Replace this use of System.out or System.err by a logger.(¹ñ¾ş8ÄúÉ÷/Hˆ*RMAJORZ
+CODE_SMELL
+q	java:S106×"9Replace this use of System.out or System.err by a logger.(Éáİÿşÿÿÿÿ8ıŒšÇ÷/H×#RMAJORZ
+CODE_SMELL
+l	java:S106¨"9Replace this use of System.out or System.err by a logger.(¹”æ8ÛŞ±Å÷/HİRMAJORZ
+CODE_SMELL
+l	java:S106"9Replace this use of System.out or System.err by a logger.(¦Ïú–8ãÌ€Ê÷/H¥1RMAJORZ
+CODE_SMELL
+u
+java:S1481¸"ARemove this unused "totalImpostoFederalVestuario" local variable.(ˆª»ô8¡í€Ï÷/HÜ1RMINORZ
+CODE_SMELL
+l	java:S106—"9Replace this use of System.out or System.err by a logger.(‘Ú¥8ÛŞ±Å÷/H×1RMAJORZ
+CODE_SMELL
+q	java:S106„"9Replace this use of System.out or System.err by a logger.(ÀØÚıÿÿÿÿ8™•ÓÆ÷/Hë!RMAJORZ
+CODE_SMELL
+„
+java:S1192h"IDefine a constant instead of duplicating this literal "PRODUTO " 4 times.(°õö¼øÿÿÿÿ8Å‚Ç÷/Hœ#RCRITICALZ
+CODE_SMELL
+q	java:S106ñ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8“¼×ª÷/H˜1RMAJORZ
+CODE_SMELL
+q	java:S106í"9Replace this use of System.out or System.err by a logger.(¬ä¿ùÿÿÿÿ8–µŒÉ÷/HÙ1RMAJORZ
+CODE_SMELL
+p	java:S106r"9Replace this use of System.out or System.err by a logger.(œ—¶Œüÿÿÿÿ8“¼×ª÷/HÆRMAJORZ
+CODE_SMELL
+l	java:S106£"9Replace this use of System.out or System.err by a logger.(Ï°Ì8ıŒšÇ÷/HÙ#RMAJORZ
+CODE_SMELL
+q	java:S106ï"9Replace this use of System.out or System.err by a logger.(ıÀ†Ìûÿÿÿÿ8İ½«Ç÷/HÌ1RMAJORZ
+CODE_SMELL
+j
+java:S6126'"2Replace this String concatenation with Text block.(ÃÍõúÿÿÿÿ8™•ÓÆ÷/Hä!RMAJORZ
+CODE_SMELL
+p	java:S106u"9Replace this use of System.out or System.err by a logger.(ğ¼Ò®şÿÿÿÿ8™•ÓÆ÷/Hç!RMAJORZ
+CODE_SMELL
+l	java:S106Õ"9Replace this use of System.out or System.err by a logger.(ª§¯Ã8œÛøÆ÷/Hè"RMAJORZ
+CODE_SMELL
+p	java:S106h"9Replace this use of System.out or System.err by a logger.(°õö¼øÿÿÿÿ8™•ÓÆ÷/Hè!RMAJORZ
+CODE_SMELL
+q	java:S106³"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ãÌ€Ê÷/HÚ,RMAJORZ
+CODE_SMELL
+{
+java:S1481·"BRemove this unused "totalImpostoEstadualVestuario" local variable.(®ë”©úÿÿÿÿ8¡í€Ï÷/HÛ1RMINORZ
+CODE_SMELL
+q	java:S106‘"9Replace this use of System.out or System.err by a logger.(Âø‰şÿÿÿÿ8•µçÅ÷/H³RMAJORZ
+CODE_SMELL
+l	java:S106˜"9Replace this use of System.out or System.err by a logger.(ºõ®8ÄúÉ÷/H‰*RMAJORZ
+CODE_SMELL

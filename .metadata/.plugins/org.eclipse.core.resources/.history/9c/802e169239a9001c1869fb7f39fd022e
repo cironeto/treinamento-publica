@@ -1,0 +1,87 @@
+package crud_produtos.view;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JButton;
+import javax.swing.JScrollPane;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Form extends JFrame {
+
+	private JPanel contentPane;
+	private JPanel crudPanel;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Form frame = new Form();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Form() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 662, 357);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblHeader = new JLabel("CRUD PRODUTOS");
+		lblHeader.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblHeader.setBounds(250, 11, 156, 19);
+		contentPane.add(lblHeader);
+		
+		JButton btnCadastrar = new JButton("CADASTRAR");
+		btnCadastrar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				crudPanel.setVisible(true);
+			}
+		});
+		btnCadastrar.setBounds(46, 41, 127, 33);
+		contentPane.add(btnCadastrar);
+		
+		JButton btnListar = new JButton("LISTAR");
+		btnListar.setBounds(183, 41, 127, 33);
+		contentPane.add(btnListar);
+		
+		JButton btnAlterar = new JButton("ALTERAR");
+		btnAlterar.setBounds(317, 41, 127, 33);
+		contentPane.add(btnAlterar);
+		
+		JButton btnRemover = new JButton("REMOVER");
+		btnRemover.setBounds(454, 41, 127, 33);
+		contentPane.add(btnRemover);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(10, 164, 610, 143);
+		contentPane.add(scrollPane);
+		
+		crudPanel = new JPanel();
+		crudPanel.setBounds(10, 85, 615, 68);
+		crudPanel.setVisible(false);
+		contentPane.add(crudPanel);
+		
+		JLabel lblNewLabel = new JLabel("New label");
+		crudPanel.add(lblNewLabel);
+	}
+
+}

@@ -1,0 +1,9 @@
+
+c
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿHÙRMINORZ
+CODE_SMELL
+i	java:S106("9Replace this use of System.out or System.err by a logger.(ôçôºüÿÿÿÿHØRMAJORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ôü¤Øö/HäRMINORZ
+CODE_SMELL

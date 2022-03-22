@@ -1,0 +1,76 @@
+
+
+java:S11924"IDefine a constant instead of duplicating this literal " IDADE: " 4 times.(ƒÍáÆ8”Á¤¦÷/HÓsRCRITICALZ
+CODE_SMELL
+
+java:S11924"IDefine a constant instead of duplicating this literal " EMAIL: " 4 times.(ƒÍáÆ8”Á¤¦÷/HØsRCRITICALZ
+CODE_SMELL
+e
+java:S6126"2Replace this String concatenation with Text block.(şÅ‡‰8×õÖ¥÷/HİsRMAJORZ
+CODE_SMELL
+k	java:S106F"9Replace this use of System.out or System.err by a logger.(şéô§8œù‘¦÷/HŞsRMAJORZ
+CODE_SMELL
+p	java:S106}"9Replace this use of System.out or System.err by a logger.(şÿ›üÿÿÿÿ8‘Ëº¢÷/HßsRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÖÓªïúÿÿÿÿ8˜®ã¡÷/HàsRMAJORZ
+CODE_SMELL
+k	java:S106W"9Replace this use of System.out or System.err by a logger.(Šùª8×õÖ¥÷/HásRMAJORZ
+CODE_SMELL
+‡
+java:S11925"LDefine a constant instead of duplicating this literal " TELEFONE: " 4 times.(Ò¿â¤ùÿÿÿÿ8”Á¤¦÷/HâsRCRITICALZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(™Éôïÿÿÿÿÿ8œù‘¦÷/HçsRMAJORZ
+CODE_SMELL
+p	java:S106Q"9Replace this use of System.out or System.err by a logger.(õäı‚şÿÿÿÿ8œù‘¦÷/HèsRMAJORZ
+CODE_SMELL
+p	java:S106Y"9Replace this use of System.out or System.err by a logger.(°ü…¾ùÿÿÿÿ8‘Ëº¢÷/HésRMAJORZ
+CODE_SMELL
+ˆ
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Çµí‘8œù‘¦÷/HêsRCRITICALZ
+CODE_SMELL
+k	java:S1064"9Replace this use of System.out or System.err by a logger.(ƒÍáÆ8†òø¡÷/HôsRMAJORZ
+CODE_SMELL
+k	java:S106U"9Replace this use of System.out or System.err by a logger.(ÓŞÀ×8†òø¡÷/HõsRMAJORZ
+CODE_SMELL
+k	java:S106i"9Replace this use of System.out or System.err by a logger.(‰Ùì8†òø¡÷/HösRMAJORZ
+CODE_SMELL
+p	java:S106o"9Replace this use of System.out or System.err by a logger.(õäı‚şÿÿÿÿ8–ü¡÷/H÷sRMAJORZ
+CODE_SMELL
+
+java:S1192>"IDefine a constant instead of duplicating this literal "CONTATO " 3 times.(‰Ùì8”Á¤¦÷/HøsRCRITICALZ
+CODE_SMELL
+…
+java:S11925"JDefine a constant instead of duplicating this literal " CIDADE: " 4 times.(Ò¿â¤ùÿÿÿÿ8”Á¤¦÷/HüsRCRITICALZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8×õÖ¥÷/HtRMINORZ
+CODE_SMELL
+q	java:S106€"9Replace this use of System.out or System.err by a logger.(™µ—ıÿÿÿÿ8Äğ¬¢÷/HƒtRMAJORZ
+CODE_SMELL
+p	java:S106%"9Replace this use of System.out or System.err by a logger.(¿Ä²ºıÿÿÿÿ8”Á¤¦÷/H„tRMAJORZ
+CODE_SMELL
+k	java:S106>"9Replace this use of System.out or System.err by a logger.(‰Ùì8œù‘¦÷/H…tRMAJORZ
+CODE_SMELL
+p	java:S106d"9Replace this use of System.out or System.err by a logger.(³ş™¬ûÿÿÿÿ8œù‘¦÷/H†tRMAJORZ
+CODE_SMELL
+p	java:S106y"9Replace this use of System.out or System.err by a logger.(È¡ùØşÿÿÿÿ8œù‘¦÷/H‡tRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(şÅ‡‰8˜®ã¡÷/HˆtRMAJORZ
+CODE_SMELL
+j	java:S106`"9Replace this use of System.out or System.err by a logger.(ÒÒÙA8œù‘¦÷/H‰tRMAJORZ
+CODE_SMELL
+k	java:S1069"9Replace this use of System.out or System.err by a logger.(çÿ Ù8œù‘¦÷/HŠtRMAJORZ
+CODE_SMELL
+k	java:S106["9Replace this use of System.out or System.err by a logger.(¾«ù¬8×õÖ¥÷/H‹tRMAJORZ
+CODE_SMELL
+€
+java:S1192>"JDefine a constant instead of duplicating this literal " - NOME: " 3 times.(‰Ùì8”Á¤¦÷/HŒtRCRITICALZ
+CODE_SMELL
+k	java:S106""9Replace this use of System.out or System.err by a logger.(ÒÊ¢8œù‘¦÷/HtRMAJORZ
+CODE_SMELL
+p	java:S106("9Replace this use of System.out or System.err by a logger.(ê¨Ç×øÿÿÿÿ8”Á¤¦÷/H‘tRMAJORZ
+CODE_SMELL
+p	java:S106]"9Replace this use of System.out or System.err by a logger.(Ô£õ¢ıÿÿÿÿ8”Á¤¦÷/H’tRMAJORZ
+CODE_SMELL
+k	java:S106K"9Replace this use of System.out or System.err by a logger.(‰Ùì8”Á¤¦÷/H“tRMAJORZ
+CODE_SMELL

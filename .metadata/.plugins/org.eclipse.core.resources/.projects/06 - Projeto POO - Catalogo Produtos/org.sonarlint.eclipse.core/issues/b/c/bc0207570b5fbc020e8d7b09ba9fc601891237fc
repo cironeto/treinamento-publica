@@ -1,0 +1,34 @@
+
+U
+java:S1643O"Use a StringBuilder instead.(€›ß¹ûÿÿÿÿ8Ô’ÿóù/H…‹RMINORZ
+CODE_SMELL
+U
+java:S1643J"Use a StringBuilder instead.(´ßÕêÿÿÿÿÿ8 £òÀù/H†‹RMINORZ
+CODE_SMELL
+P
+java:S1643P"Use a StringBuilder instead.(Ç¨¿‰8 £òÀù/H‡‹RMINORZ
+CODE_SMELL
+‡
+java:S1192N"KDefine a constant instead of duplicating this literal "TELEFONE: " 3 times.(–“˜÷øÿÿÿÿ8¶«…ôù/Hˆ‹RCRITICALZ
+CODE_SMELL
+U
+java:S1643K"Use a StringBuilder instead.(Ç•‘»ıÿÿÿÿ8 £òÀù/HŒ‹RMINORZ
+CODE_SMELL
+P
+java:S1643M"Use a StringBuilder instead.(ş¼Èœ8Ô’ÿóù/H‹RMINORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ìîÑçù/H‹RMINORZ
+CODE_SMELL
+U
+java:S1643N"Use a StringBuilder instead.(–“˜÷øÿÿÿÿ8Ô’ÿóù/H‹RMINORZ
+CODE_SMELL
+„
+java:S1192O"HDefine a constant instead of duplicating this literal "EMAIL: " 3 times.(€›ß¹ûÿÿÿÿ8¶«…ôù/H‘‹RCRITICALZ
+CODE_SMELL
+~
+java:S1192M"GDefine a constant instead of duplicating this literal "NOME: " 3 times.(ş¼Èœ8¶«…ôù/H•‹RCRITICALZ
+CODE_SMELL
+P
+java:S1643L"Use a StringBuilder instead.(Ä…Äò8Ô’ÿóù/H™‹RMINORZ
+CODE_SMELL

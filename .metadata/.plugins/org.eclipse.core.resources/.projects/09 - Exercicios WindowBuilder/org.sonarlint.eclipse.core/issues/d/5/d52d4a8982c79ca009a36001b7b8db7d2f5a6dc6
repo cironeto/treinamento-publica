@@ -1,0 +1,16 @@
+
+Q
+java:S2386
+"Make this member "protected".(ÂËñ8Ê®ìú/HŠRMINORZ
+CODE_SMELL
+b
+java:S1444
+".Make this "public static produtos" field final(ÂËñ8Ê®ìú/HRMINORZ
+CODE_SMELL
+ˆ
+java:S1104
+"TMake produtos a static final constant or non-public and provide accessors if needed.(ÂËñ8Ê®ìú/HŒRMINORZ
+CODE_SMELL
+n
+java:S1118":Add a private constructor to hide the implicit public one.(ƒÍØÙ8Ê®ìú/H‹RMAJORZ
+CODE_SMELL

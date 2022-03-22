@@ -1,0 +1,51 @@
+package crud_escola.modelo;
+
+import java.util.ArrayList;
+
+public class Aluno {
+
+	private String nome;
+	private ArrayList<Nota> notas;
+	private ArrayList<Chamada> presenças;
+	
+	public Aluno(String nome, ArrayList<Nota> notas, ArrayList<Chamada> presenças) {
+		super();
+		this.nome = nome;
+		this.notas = notas;
+		this.presenças = presenças;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public ArrayList<Nota> getNotas() {
+		return notas;
+	}
+
+	public void setNotas(ArrayList<Nota> notas) {
+		this.notas = notas;
+	}
+
+	public ArrayList<Chamada> getPresenças() {
+		return presenças;
+	}
+
+	public void setPresenças(ArrayList<Chamada> presenças) {
+		this.presenças = presenças;
+	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Aluno [nome=" + nome + ", notas=" + notas + ", presenças=" + presenças + "]";
+	}	
+	
+	
+
+}

@@ -1,0 +1,18 @@
+
+~
+java:S3252)"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿHÃ«RCRITICALZ
+CODE_SMELL
+Š	java:S116!"WRename this field "scrollPane_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( úºÒ8€¥¸û/HÈ«RMINORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8€¥¸û/HÉ«RMINORZ
+CODE_SMELL
+a
+java:S1604G"(Make this anonymous inner class a lambda(ğáåºşÿÿÿÿ8Ò¼†û/HÆ«RMAJORZ
+CODE_SMELL
+a
+java:S1604d"(Make this anonymous inner class a lambda(Ü­”Ìşÿÿÿÿ8–­€û/HÇ«RMAJORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8æş°™û/H±¬RMINORZ
+CODE_SMELL

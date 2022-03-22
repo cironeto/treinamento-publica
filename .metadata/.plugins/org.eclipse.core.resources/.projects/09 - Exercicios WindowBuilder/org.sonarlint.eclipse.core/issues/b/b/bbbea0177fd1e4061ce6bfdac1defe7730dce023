@@ -1,0 +1,30 @@
+
+h
+java:S3740)"/Provide the parametrized type for this generic.(¾ÐåÁþÿÿÿÿ8íÅçîú/HÜ«RMAJORZ
+CODE_SMELL
+h
+java:S1128"4Remove this unused import 'javax.swing.JOptionPane'.(÷‰Îé8§©«‹û/Hà«RMINORZ
+CODE_SMELL
+~
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öþÿÿÿÿHÞ«RCRITICALZ
+CODE_SMELL
+t	java:S125"<This block of commented-out lines of code should be removed.(Ò—§Èùÿÿÿÿ8ÔÇôŠû/HÕ«RMAJORZ
+CODE_SMELL
+h
+java:S3740)"/Provide the parametrized type for this generic.(¾ÐåÁþÿÿÿÿ8íÅçîú/HÝ«RMAJORZ
+CODE_SMELL
+_
+java:S1948"(Make "alunos" transient or serializable.(ðùÁÈ8íí©‹û/HÔ«RCRITICALZ
+CODE_SMELL
+a
+java:S16048"(Make this anonymous inner class a lambda(—‚„ùÿÿÿÿ8‡©Íïú/HÖ«RMAJORZ
+CODE_SMELL
+a
+java:S1604H"(Make this anonymous inner class a lambda(Ü­”Ìþÿÿÿÿ8ÜÅ·‹û/HØ«RMAJORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8§©«‹û/HÚ«RMINORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8èþ°™û/HÑ¬RMINORZ
+CODE_SMELL

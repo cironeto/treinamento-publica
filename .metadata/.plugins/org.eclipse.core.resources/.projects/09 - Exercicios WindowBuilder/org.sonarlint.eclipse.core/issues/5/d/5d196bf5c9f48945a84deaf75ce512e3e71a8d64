@@ -1,0 +1,27 @@
+
+}
+java:S1192="FDefine a constant instead of duplicating this literal "DOLAR" 3 times.(Öù®æ8ëıáçú/HÛ˜RCRITICALZ
+CODE_SMELL
+a
+java:S1604g"(Make this anonymous inner class a lambda(Àà•Îùÿÿÿÿ8ëıáçú/Hß˜RMAJORZ
+CODE_SMELL
+Z
+java:S1604"(Make this anonymous inner class a lambda(¤©ÒâüÿÿÿÿHà˜RMAJORZ
+CODE_SMELL
+~
+java:S3252-"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿHá˜RCRITICALZ
+CODE_SMELL
+k
+java:S1128"2Remove this unused import 'javax.swing.JTextPane'.(ŸÉù¿ùÿÿÿÿ8Ÿ‚¨çú/Hã˜RMINORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8’•Œçú/Hå˜RMINORZ
+CODE_SMELL
+‚
+java:S1192G"FDefine a constant instead of duplicating this literal "LIBRA" 3 times.(°¤Èşÿÿÿÿ8Êæğçú/Hç˜RCRITICALZ
+CODE_SMELL
+]	java:S131k""Add a default case to this switch.(†²·¹úÿÿÿÿ8ëıáçú/Hë˜RCRITICALZ
+CODE_SMELL
+€
+java:S1192Q"IDefine a constant instead of duplicating this literal "PESO ARG" 3 times.(¡äÙ¶8ü®˜êú/Hì˜RCRITICALZ
+CODE_SMELL

@@ -1,0 +1,21 @@
+
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ä…·HŒRMINORZ
+CODE_SMELL
+h
+java:S3740-"/Provide the parametrized type for this generic.(¾ĞåÁşÿÿÿÿ8êüĞâú/HŒRMAJORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8êüĞâú/H‹ŒRMINORZ
+CODE_SMELL
+~
+java:S3252&"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿH‰ŒRCRITICALZ
+CODE_SMELL
+h
+java:S3740-"/Provide the parametrized type for this generic.(¾ĞåÁşÿÿÿÿ8êüĞâú/HˆŒRMAJORZ
+CODE_SMELL
+Z
+java:S1604"(Make this anonymous inner class a lambda(¤©ÒâüÿÿÿÿHŒRMAJORZ
+CODE_SMELL
+a
+java:S1604."(Make this anonymous inner class a lambda(­×Ğıÿÿÿÿ8—Ùëâú/HŒRMAJORZ
+CODE_SMELL

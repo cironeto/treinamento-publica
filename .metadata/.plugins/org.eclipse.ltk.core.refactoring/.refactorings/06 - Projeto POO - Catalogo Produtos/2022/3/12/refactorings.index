@@ -1,0 +1,27 @@
+1647436905857	Move compilation unit
+1647439111455	Rename field 'perguntaSecreta'
+1647446814246	Rename type 'Login'
+1647446822133	Rename package 'acao'
+1647447653810	Delete element
+1647451858246	Rename field 'tentativasExcecidas'
+1647455266629	Rename local variable 'login'
+1647455273644	Rename local variable 'username'
+1647461015080	Delete element
+1647515906793	Rename type 'UsuarioFactory'
+1647516211494	Delete element
+1647516222606	Delete element
+1647517204918	Rename type 'GerenteService'
+1647518613333	Rename type 'CrudEscola'
+1647521117536	Rename type 'Crud'
+1647524341203	Rename type 'CrudUsuario'
+1647528614837	Rename local variable 'list'
+1647528621346	Rename local variable 'list2'
+1647533944334	Rename local variable 'idMarcaNoArray'
+1647534830161	Rename local variable 'indiceUsuarioSelecionado'
+1647534841676	Rename local variable 'indiceUsuarioSelecionado'
+1647536922400	Rename method 'recuperaSenha'
+1647568052317	Rename method 'solicitaDadosESalvaArrayList'
+1647613322913	Rename method 'solicitaLoginEValida'
+1647622548611	Rename method 'jaExisteUsername'
+1647631153387	Delete element
+1647631220754	Delete element

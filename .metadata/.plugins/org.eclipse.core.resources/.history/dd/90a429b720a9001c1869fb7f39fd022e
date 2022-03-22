@@ -1,0 +1,7 @@
+package tabuada;
+
+public class ModeloResultado {
+	private String rotulo;
+	private int resultado;
+
+}

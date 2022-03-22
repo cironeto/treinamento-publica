@@ -1,0 +1,13 @@
+
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8Ôö‚—û/H÷©RMINORZ
+CODE_SMELL
+~
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öþÿÿÿÿH«ªRCRITICALZ
+CODE_SMELL
+a
+java:S1604,"(Make this anonymous inner class a lambda(Ü­”Ìþÿÿÿÿ8Ää³—û/HªªRMAJORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8çþ°™û/HÁ¬RMINORZ
+CODE_SMELL

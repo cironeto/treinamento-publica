@@ -1,0 +1,20 @@
+package crud_escola;
+
+import java.util.ArrayList;
+
+import crud_escola.dados.Dados;
+import crud_escola.formulario.FormularioInicio;
+import crud_escola.modelo.Aluno;
+
+public class Main {
+	public static void main(String[] args) {
+		Dados.alunos.add(new Aluno("Ciro Vergueiro Ribeiro Neto", new ArrayList<>(), new ArrayList<>()));
+		Dados.alunos.add(new Aluno("Amanda Rafael Martins", new ArrayList<>(), new ArrayList<>()));
+		Dados.alunos.add(new Aluno("Maria Fernanda Corsi", new ArrayList<>(), new ArrayList<>()));
+		Dados.alunos.add(new Aluno("Marina Guarinelo Ribeiro", new ArrayList<>(), new ArrayList<>()));
+		Dados.alunos.add(new Aluno("Ciro Baldassari Ribeiro", new ArrayList<>(), new ArrayList<>()));
+		
+		new FormularioInicio().setVisible(true);
+	}
+
+}

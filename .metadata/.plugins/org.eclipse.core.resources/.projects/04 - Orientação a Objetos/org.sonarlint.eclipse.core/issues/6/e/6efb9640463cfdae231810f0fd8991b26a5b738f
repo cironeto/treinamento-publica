@@ -1,0 +1,9 @@
+
+a
+java:S1068")Remove this unused "idade" private field.(Ìíƒ¯ûÿÿÿÿ8È®«”ù/HØZRMAJORZ
+CODE_SMELL
+[
+java:S1068"(Remove this unused "nome" private field.(«Ÿ¡ù8È®«”ù/HÖZRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£„Û–ÿÿÿÿÿHÎZRMINORZ
+CODE_SMELL

@@ -1,0 +1,11 @@
+package menus;
+
+import javax.swing.JOptionPane;
+
+public class MenuInicial {
+	
+	public static void menu() {
+		JOptionPane.showInputDialog("BEM VINDO, SELECIONE COMO DESEJA INICIAR \n" + "1 - LOGIN" + "2 - ESQUECI MINHA SENHA");
+	}
+
+}

@@ -1,0 +1,13 @@
+
+_
+java:S1125#"'Remove the unnecessary boolean literal.(‡ô¤³úÿÿÿÿ8†ÙÑõö/HRMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(®ûÙ8…õ«õö/H’RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¹Ó©£úÿÿÿÿ8…õ«õö/H“RMAJORZ
+CODE_SMELL
+b
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8…õ«õö/H”RMINORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(ïÔ®×ıÿÿÿÿ8½áßõö/H–RMAJORZ
+CODE_SMELL

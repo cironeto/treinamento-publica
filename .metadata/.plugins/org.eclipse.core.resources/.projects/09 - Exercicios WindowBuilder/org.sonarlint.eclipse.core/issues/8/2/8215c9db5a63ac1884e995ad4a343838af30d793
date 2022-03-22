@@ -1,0 +1,8 @@
+
+n
+java:S1128"5Remove this unused import 'crud_escola.modelo.Aluno'.(ðêç°ûÿÿÿÿ8‡†ÔŒû/HÔ RMINORZ
+CODE_SMELL
+n
+java:S1118
+":Add a private constructor to hide the implicit public one.(³”—–8‡†ÔŒû/HÖ RMAJORZ
+CODE_SMELL

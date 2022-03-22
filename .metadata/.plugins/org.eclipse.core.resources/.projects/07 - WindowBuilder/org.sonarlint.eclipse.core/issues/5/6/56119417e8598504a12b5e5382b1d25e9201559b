@@ -1,0 +1,21 @@
+
+a
+java:S16046"(Make this anonymous inner class a lambda(Ýž”‘ýÿÿÿÿ8“ªðáú/H›ŒRMAJORZ
+CODE_SMELL
+j
+java:S1128"1Remove this unused import 'java.awt.SystemColor'.(‚Ùûþúÿÿÿÿ8ñ½õáú/HœŒRMINORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8“ªðáú/H ŒRMINORZ
+CODE_SMELL
+h
+java:S1128"4Remove this unused import 'javax.swing.JOptionPane'.(÷‰Îé8å†¸âú/H˜ŒRMINORZ
+CODE_SMELL
+~
+java:S3252-"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öþÿÿÿÿHžŒRCRITICALZ
+CODE_SMELL
+Z
+java:S1604"(Make this anonymous inner class a lambda(¤©ÒâüÿÿÿÿH¢ŒRMAJORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ îìHšŒRMINORZ
+CODE_SMELL

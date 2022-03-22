@@ -1,0 +1,44 @@
+package crud_escola.service;
+
+import java.util.List;
+
+import javax.swing.table.DefaultTableModel;
+
+import crud_escola.dados.Dados;
+import crud_escola.modelo.Aluno;
+
+public class AlunoService {
+
+	public static DefaultTableModel listaDadosAlunoSelecionado(Aluno aluno) {
+		DefaultTableModel defaultTableModel = new DefaultTableModel();
+
+		defaultTableModel.addColumn("ID");
+		defaultTableModel.addColumn("Nome");
+
+		defaultTableModel.addRow(new Object[] { aluno.getId(), aluno.getNome() });
+
+		return defaultTableModel;
+	}
+	
+	public static DefaultTableModel listaProvasAlunoSelecionado(Aluno aluno) {
+		DefaultTableModel defaultTableModel = new DefaultTableModel();
+
+		defaultTableModel.addColumn("Prova");
+		defaultTableModel.addColumn("Matéria");
+		defaultTableModel.addColumn("Nota");
+
+		for (int i = 0; i < aluno.getNotas().size(); i++) {
+			defaultTableModel.addRow(new Object[] { 
+					aluno.getNotas().get(i).getProva().getNome(),
+					aluno.getNotas().get(i).getProva().getMateria(),
+					aluno.getNotas().get(i).getNota()});
+		}		
+
+		return defaultTableModel;
+	}
+	
+	public static void alterarAluno(List<Aluno> alunos, int id, Aluno aluno) {
+		alunos.set(id, aluno);
+	}
+
+}

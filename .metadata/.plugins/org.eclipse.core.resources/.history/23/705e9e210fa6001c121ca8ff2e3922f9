@@ -1,0 +1,63 @@
+package service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import interfaces.Crud;
+import interfaces.CrudDependenciaOutroArray;
+import model.Marca;
+import model.Produto;
+import model.Usuario;
+
+public class ProdutoService implements CrudDependenciaOutroArray<Produto, Marca> {
+
+
+	@Override
+	public void cadastrarDependenciaOutroArray(List<Produto> produtos, List<Marca> marcas) {
+		String listaMarcas = "MARCAS \n";
+
+		for (int i = 0; i < marcas.size(); i++) {
+			listaMarcas += "ID " + (i + 1) + ": ";
+			listaMarcas += marcas.get(i).getNome();
+			listaMarcas += "\n";
+		}
+			
+		String nome = JOptionPane.showInputDialog("NOME: ");
+		double valor = Double.parseDouble(JOptionPane.showInputDialog("VALOR: "));
+		int idMarcaDigitado = Integer.parseInt(JOptionPane.showInputDialog("ID MARCA: \n " + listaMarcas));
+
+		produtos.add(new Produto(nome, valor, (idMarcaDigitado - 1)));
+		
+	}
+
+	@Override
+	public void listarDependenciaOutroArray(List<Produto> produtos, List<Marca> marcas) {
+		String listaProdutos = "PRODUTOS \n";
+
+		for (int i = 0; i < produtos.size(); i++) {
+			listaProdutos += "ID " + (i + 1) + ": ";
+			listaProdutos += produtos.get(i).getNome() + ", ";
+			listaProdutos += produtos.get(i).getValor() + ", ";
+			listaProdutos += "Marca " + marcas.get(produtos.get(i).getIdMarca()).getNome() + ", ";
+			listaProdutos += "\n";
+		}
+		
+		JOptionPane.showMessageDialog(null, listaProdutos);
+		
+	}
+
+	@Override
+	public void alterarDependenciaOutroArray(List<Produto> produtos, List<Marca> marcas) {
+		
+	}
+
+	@Override
+	public void removerDependenciaOutroArray(List<Produto> produtos, List<Marca> marcas) {
+		
+	}
+
+	
+
+}

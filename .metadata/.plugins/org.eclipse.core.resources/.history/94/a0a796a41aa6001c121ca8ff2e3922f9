@@ -1,0 +1,81 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import factory.Factory;
+import menus.MenuAdmin;
+import menus.MenuGerente;
+import menus.MenuInicial;
+import menus.MenuVendedor;
+import model.Marca;
+import model.Produto;
+import model.Usuario;
+import service.LoginService;
+
+public class Main {
+	public static void main(String[] args) throws InterruptedException {
+		
+		
+	    System.out.println(showMenu());
+
+		int opcao = 0;
+		List<Usuario> usuarios = Factory.instanciaUsuariosRetornaLista();
+		List<Produto> produtos = Factory.instanciaProdutosRetornaLista();
+		List<Marca> marcas = Factory.intanciaMarcasRetornaLista();
+
+		do {
+			//Chama menu principal para Logar e Recuperar Senha
+			opcao = MenuInicial.menu();
+
+			switch (opcao) {
+			case 1:
+				int indiceUsuarioAutenticado = -1;
+				indiceUsuarioAutenticado = LoginService.autenticaUsuarioERetornaIndiceUsuario(usuarios);
+
+				// chamada dos menus por nível de usuario 
+				switch (usuarios.get(indiceUsuarioAutenticado).getNivel()) {
+				case "admin": 
+					MenuAdmin.menu(usuarios, produtos, marcas);
+					break;
+				case "gerente": 
+					MenuGerente.menu(usuarios, produtos, marcas);
+					break;
+				case "vendedor":
+					MenuVendedor.menu(usuarios, produtos, marcas);
+					break;				
+				default:
+					JOptionPane.showMessageDialog(null, "Nível de acesso inválido");
+				}
+				break;
+
+			case 2:
+				LoginService.recuperacaoSenha(usuarios);
+				break;
+			case 3:
+				JOptionPane.showMessageDialog(null, "Saindo do sistema");
+				break;
+
+			default:
+				JOptionPane.showMessageDialog(null, "Opção inválida");
+				break;
+			}
+		} while (opcao != 3);
+
+	}
+	
+	public static String showMenu(){
+//        Object[] options = {"option1", "option2", "option3"};
+		List<Marca> marcas = Factory.intanciaMarcasRetornaLista();
+        List<String> options = new ArrayList<>();
+        
+        for (int i = 0; i < marcas.size(); i++) {
+			options.add(marcas.get(i).getNome());
+		}
+        
+        Object selectionObject = JOptionPane.showInputDialog(null, "Choose", "Menu", JOptionPane.PLAIN_MESSAGE, null, options, options[0]);
+        String selectionString = selectionObject.toString();
+        return selectionString;
+	}
+
+}

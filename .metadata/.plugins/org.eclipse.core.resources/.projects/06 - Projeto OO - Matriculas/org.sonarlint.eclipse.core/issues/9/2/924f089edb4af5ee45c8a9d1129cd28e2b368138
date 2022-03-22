@@ -1,0 +1,22 @@
+
+‚
+java:S1192"LDefine a constant instead of duplicating this literal "12345678900" 3 times.(Ι†³8ÿ»ρ΅ω/HeRCRITICALZ
+CODE_SMELL
+’
+java:S1192"\Define a constant instead of duplicating this literal "Ciro Vergueiro Ribeiro Neto" 3 times.(Ι†³8ÿ»ρ΅ω/H”eRCRITICALZ
+CODE_SMELL
+„
+java:S1192"IDefine a constant instead of duplicating this literal "resposta" 3 times.(ξµκώÿÿÿÿ8ÿ»ρ΅ω/HeRCRITICALZ
+CODE_SMELL
+‡
+java:S1192"LDefine a constant instead of duplicating this literal "19992582741" 3 times.(ξµκώÿÿÿÿ8ÿ»ρ΅ω/HeRCRITICALZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.Hκ\RMINORZ
+CODE_SMELL
+„
+java:S1871&"LThis branch's code block is the same as the block for the branch on line 36.(ωÒνθÿÿÿÿÿ8’²φ΅ω/H®eRMAJORZ
+CODE_SMELL
+
+java:S1871("LThis branch's code block is the same as the block for the branch on line 36.(ύΆυ€8’²φ΅ω/H¬eRMAJORZ
+CODE_SMELL

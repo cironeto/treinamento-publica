@@ -1,0 +1,81 @@
+package crud_escola.formulario;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import crud_escola.dados.Dados;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class MenuAluno extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					MenuAluno frame = new MenuAluno();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public MenuAluno() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 198);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnEntrar = new JButton("Entrar");
+		btnEntrar.setBounds(146, 88, 131, 60);
+		contentPane.add(btnEntrar);
+		
+		JComboBox cbxLista = new JComboBox();
+		cbxLista.setBounds(146, 36, 131, 41);
+		contentPane.add(cbxLista);
+		
+		cbxLista.addItem("");
+		cbxLista.addItem("Ciro Vergueiro Ribeiro Neto");
+		cbxLista.addItem("Amanda Rafael Martins");
+		cbxLista.addItem("Maria Fernanda Corsi");
+		cbxLista.addItem("Marina Guarinelo Ribeiro");
+		cbxLista.addItem("Ciro Baldassari Ribeiro");
+		
+		cbxLista.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(cbxLista.getSelectedIndex() != 0) {
+					JOptionPane.showMessageDialog(null, Dados.alunos.get(1));
+				}
+			}
+		});	
+		
+		
+		JLabel lblHeader = new JLabel("Selecione o Aluno");
+		lblHeader.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblHeader.setBounds(146, 11, 144, 14);
+		contentPane.add(lblHeader);
+	}
+}

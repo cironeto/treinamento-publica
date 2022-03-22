@@ -1,0 +1,12 @@
+package menus;
+
+import javax.swing.JOptionPane;
+
+public class MenuInicial {
+
+	public static void menu() {
+		JOptionPane.showInputDialog(
+				"BEM VINDO! \n" + "\n1 - REALIZAR LOGIN \n" + "2 - RECUPERAR SENHA \n");
+	}
+
+}

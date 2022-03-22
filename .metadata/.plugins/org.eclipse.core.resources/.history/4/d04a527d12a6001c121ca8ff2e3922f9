@@ -1,0 +1,35 @@
+package menus;
+
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import model.Marca;
+import model.Produto;
+import model.Usuario;
+
+public class MenuVendedor {
+	static int opcao = 0;
+
+	public static void menu(List<Usuario> usuarios, List<Produto> produtos, List<Marca> marcas) {
+
+		do {
+			opcao = Integer
+					.parseInt(JOptionPane.showInputDialog("*MENU VENDEDOR* \n" 
+							+ "1 - Gerenciar PRODUTOS \n" 
+							+ "2 - Logout \n\n"));
+
+			switch (opcao) {
+
+			case 1:
+				MenuCrudMarcas.menu(marcas, produtos);
+				break;
+			case 2:
+				break;
+			default:
+				JOptionPane.showMessageDialog(null, "Opção inválida");
+				break;
+			}
+		} while (opcao != 3);
+	}
+}

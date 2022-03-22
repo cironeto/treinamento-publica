@@ -1,0 +1,22 @@
+
+h
+java:S1128"4Remove this unused import 'javax.swing.JOptionPane'.(÷‰Îé8‹Ë´åú/H¥ŠRMINORZ
+CODE_SMELL
+ƒ
+java:S1192?"GDefine a constant instead of duplicating this literal "Tahoma" 7 times.(ÙéÓ˜úÿÿÿÿ8ÅÝ¢äú/H™ŠRCRITICALZ
+CODE_SMELL
+_
+java:S1128"+Remove this unused import 'database.Dados'.(£Ç³Ç8à¦ºäú/Hå‰RMINORZ
+CODE_SMELL
+Z
+java:S1604&"(Make this anonymous inner class a lambda(¤©ÒâüÿÿÿÿH˜ŠRMAJORZ
+CODE_SMELL
+\
+java:S1604b"(Make this anonymous inner class a lambda(Þñ¦æ8à¦ºäú/H—ŠRMAJORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8ÅÝ¢äú/Hð‰RMINORZ
+CODE_SMELL
+~
+java:S32526"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öþÿÿÿÿH¡ŠRCRITICALZ
+CODE_SMELL

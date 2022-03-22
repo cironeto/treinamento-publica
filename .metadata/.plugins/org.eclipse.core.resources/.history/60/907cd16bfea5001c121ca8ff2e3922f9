@@ -1,0 +1,37 @@
+package service;
+
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import interfaces.Crud;
+import model.Produto;
+import model.Usuario;
+
+public class ProdutoService implements Crud<Produto> {
+
+	@Override
+	public void cadastrar(List<Produto> list) {
+		String nome = JOptionPane.showInputDialog("NOME: ");
+		double valor = Double.parseDouble(JOptionPane.showInputDialog("VALOR: "));
+		String marca = JOptionPane.showInputDialog("MARCA: ");
+
+//		list.add();
+	}
+
+	@Override
+	public void listar(List<Produto> list) {
+		
+	}
+
+	@Override
+	public void alterar(List<Produto> list) {
+		
+	}
+
+	@Override
+	public void remover(List<Produto> list) {
+		
+	}
+
+}

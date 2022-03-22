@@ -1,0 +1,16 @@
+
+h
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8ù²Êø/HıgRMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¸ì‚HÿgRMAJORZ
+CODE_SMELL
+r
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8£ŒŒÊø/H€hRMINORZ
+CODE_SMELL
+i	java:S106*"9Replace this use of System.out or System.err by a logger.(şÿ›üÿÿÿÿH‚hRMAJORZ
+CODE_SMELL
+i	java:S106-"9Replace this use of System.out or System.err by a logger.(™µ—ıÿÿÿÿHƒhRMAJORZ
+CODE_SMELL
+^
+java:S6126"2Replace this String concatenation with Text block.(¸ì‚H„hRMAJORZ
+CODE_SMELL

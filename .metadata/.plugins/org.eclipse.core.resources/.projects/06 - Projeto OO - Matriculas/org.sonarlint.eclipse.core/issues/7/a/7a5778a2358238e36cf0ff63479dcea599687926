@@ -1,0 +1,15 @@
+
+r
+java:S1118":Add a private constructor to hide the implicit public one.(İ—ƒşÿÿÿÿ8í î›ù/Hø`RMAJORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8í î›ù/Hı`RMINORZ
+CODE_SMELL
+Œ
+java:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(†²·¹úÿÿÿÿ8í î›ù/Hú`RMAJORZBUG
+e
+java:S6126"2Replace this String concatenation with Text block.(šÓËÎ8í î›ù/Hù`RMAJORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8í î›ù/Hû`RMINORZ
+CODE_SMELL

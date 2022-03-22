@@ -1,0 +1,22 @@
+package menus;
+
+import javax.swing.JOptionPane;
+
+public class MenuInicial {
+
+	public static String menu() {
+//		int opcao = 0;
+		String opcao = null;
+
+		try {
+			opcao = JOptionPane.showInputDialog(
+					"BEM VINDO! \n" + "\n1 - REALIZAR LOGIN \n" + "2 - RECUPERAR SENHA \n" + "3 - SAIR \n\n");
+			System.out.println(opcao);
+			
+		} catch (NumberFormatException e) {
+			JOptionPane.showMessageDialog(null, "Insira um numero válido");
+		}
+		return opcao;
+	}
+
+}

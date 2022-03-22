@@ -1,0 +1,27 @@
+package model;
+
+public class Usuario extends Pessoa{
+	private String username;
+	private String senha;
+	private String nivel;
+	private String telefone;
+	private String email;
+	private String perguntaSecreta;
+	
+	
+	public Usuario() {
+	}
+	
+	public Usuario(String username, String senha, String nivel, String telefone, String email, String perguntaSecreta) {
+		super();
+		this.username = username;
+		this.senha = senha;
+		this.nivel = nivel;
+		this.telefone = telefone;
+		this.email = email;
+		this.perguntaSecreta = perguntaSecreta;
+	}
+	
+	
+
+}

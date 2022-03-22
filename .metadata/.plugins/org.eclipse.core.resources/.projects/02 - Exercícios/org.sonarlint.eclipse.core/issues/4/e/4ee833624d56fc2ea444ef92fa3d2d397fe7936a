@@ -1,0 +1,37 @@
+
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(†Î€Îøÿÿÿÿ8Ë¥Àıö/HŞ
+RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Éßâşÿÿÿÿ8Ü×Šüö/HöRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(½ã‚¾8Ü×Šüö/Há
+RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8Ë¥Àıö/HÑ
+RMAJORZ
+CODE_SMELL
+p	java:S106/"9Replace this use of System.out or System.err by a logger.(â©¸Šşÿÿÿÿ8†§÷/HÓRMAJORZ
+CODE_SMELL
+k	java:S106'"9Replace this use of System.out or System.err by a logger.(½ã‚¾8†İªùö/Hß
+RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(½ã‚¾8Ë¥Àıö/Hã
+RMAJORZ
+CODE_SMELL
+ˆ
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Çµí‘8Ë¥Àıö/HÒ
+RCRITICALZ
+CODE_SMELL
+k	java:S106	"9Replace this use of System.out or System.err by a logger.(ä”’ó8Ü×Šüö/Hâ
+RMAJORZ
+CODE_SMELL
+p	java:S106."9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ôÄ©ùö/H÷RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(‡¥ÒüùÿÿÿÿHĞ
+RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ËÍÄıö/HÎ
+RMAJORZ
+CODE_SMELL
+p	java:S106:"9Replace this use of System.out or System.err by a logger.(áî»½ùÿÿÿÿ8Óá¨÷/HáRMAJORZ
+CODE_SMELL

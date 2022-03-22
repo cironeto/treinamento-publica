@@ -1,0 +1,9 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£„Û–ÿÿÿÿÿHĞZRMINORZ
+CODE_SMELL
+a
+java:S1068")Remove this unused "cargo" private field.(ÂŞŠÿÿÿÿÿ8ø°”ù/HãZRMAJORZ
+CODE_SMELL
+^
+java:S1068"+Remove this unused "salario" private field.(È“ïë8ø°”ù/HåZRMAJORZ
+CODE_SMELL

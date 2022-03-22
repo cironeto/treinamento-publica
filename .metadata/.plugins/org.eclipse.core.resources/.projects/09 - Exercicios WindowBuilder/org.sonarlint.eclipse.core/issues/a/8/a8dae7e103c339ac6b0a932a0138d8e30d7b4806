@@ -1,0 +1,28 @@
+
+\
+java:S16049"(Make this anonymous inner class a lambda(Â®ãƒ8Úš•û/H¦©RMAJORZ
+CODE_SMELL
+a
+java:S1604C"(Make this anonymous inner class a lambda(Ü­”Ìşÿÿÿÿ8˜Œû/H¡©RMAJORZ
+CODE_SMELL
+\
+java:S1604c"(Make this anonymous inner class a lambda(…¿ßş8ã°¿û/H©©RMAJORZ
+CODE_SMELL
+}
+java:S1192M"GDefine a constant instead of duplicating this literal "Tahoma" 3 times.(¢8Úš•û/H¢©RCRITICALZ
+CODE_SMELL
+~
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿH§©RCRITICALZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8½ Çû/H¬©RMINORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8èş°™û/HÌ¬RMINORZ
+CODE_SMELL
+a
+java:S1604%"(Make this anonymous inner class a lambda(“Ğ àüÿÿÿÿ8“›Ïû/H«©RMAJORZ
+CODE_SMELL
+\
+java:S1604/"(Make this anonymous inner class a lambda(­ÿİÄ8½ Çû/Hª©RMAJORZ
+CODE_SMELL

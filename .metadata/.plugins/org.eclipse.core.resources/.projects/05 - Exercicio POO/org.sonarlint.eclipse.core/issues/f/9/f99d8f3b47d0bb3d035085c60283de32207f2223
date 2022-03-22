@@ -1,0 +1,22 @@
+
+j
+java:S1128"2Remove this unused import 'crud_banco.Transacoes'.(¼¿¥Õúÿÿÿÿ8şÿôø/H…]RMINORZ
+CODE_SMELL
+e
+java:S6126"2Replace this String concatenation with Text block.(šÓËÎ8şÿôø/H‚]RMAJORZ
+CODE_SMELL
+e
+java:S6126;"2Replace this String concatenation with Text block.(šÓËÎ8Ø…¼õø/HŠ]RMAJORZ
+CODE_SMELL
+r
+java:S1118":Add a private constructor to hide the implicit public one.(‡ÑŒıÿÿÿÿ8şÿôø/H‹]RMAJORZ
+CODE_SMELL
+Œ
+java:S3923>"[Remove this conditional structure or edit its code blocks so that they're not all the same.(†²·¹úÿÿÿÿ8şÿôø/H‡]RMAJORZBUG
+d
+java:S1128
+"1Remove this unused import 'crud_banco.ContaAcao'.(ÇÔşÖ8şÿôø/Hˆ]RMINORZ
+CODE_SMELL
+`
+java:S1128	"-Remove this unused import 'crud_banco.Conta'.(ŸÅ«ö8şÿôø/Hƒ]RMINORZ
+CODE_SMELL

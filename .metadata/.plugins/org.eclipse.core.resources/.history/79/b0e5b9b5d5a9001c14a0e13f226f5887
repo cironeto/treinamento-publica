@@ -1,0 +1,7 @@
+package crud_escola.modelo;
+
+public class Nota {
+	private String nome;
+	private String nota;
+
+}

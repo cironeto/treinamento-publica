@@ -1,0 +1,11 @@
+
+n
+java:S21845"BCast one of the operands of this division operation to a "double".(Ã³Ž­8Â¹™Ÿ÷/Hß-RMINORZBUG
+i	java:S106"9Replace this use of System.out or System.err by a logger.(‰š¹”øÿÿÿÿHà-RMAJORZ
+CODE_SMELL
+k	java:S1067"9Replace this use of System.out or System.err by a logger.(Û¥Â®8ÿ•õž÷/Há-RMAJORZ
+CODE_SMELL
+k	java:S106'"9Replace this use of System.out or System.err by a logger.(£è´´8®ÁÞž÷/Hâ-RMAJORZ
+CODE_SMELL
+l
+java:S21845"@Cast one of the operands of this integer division to a "double".(Ã³Ž­8Â¹™Ÿ÷/Hã-RMINORZBUG

@@ -1,0 +1,12 @@
+package crud_escola.dados;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import crud_escola.modelo.Aluno;
+
+public class Dados {
+	
+	public static List<Aluno> alunos = new ArrayList<>();
+
+}

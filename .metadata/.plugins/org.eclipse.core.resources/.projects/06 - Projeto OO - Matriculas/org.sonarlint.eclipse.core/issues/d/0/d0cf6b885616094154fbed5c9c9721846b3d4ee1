@@ -1,0 +1,19 @@
+
+_
+java:S1068",Remove this unused "username" private field.(‘ó¹²8ì©È–ù/H”\RMAJORZ
+CODE_SMELL
+a
+java:S1068")Remove this unused "senha" private field.(·­‰¡ûÿÿÿÿ8ì©È–ù/H–\RMAJORZ
+CODE_SMELL
+a
+java:S1068")Remove this unused "nivel" private field.(Çî‹şÿÿÿÿ8ì©È–ù/H˜\RMAJORZ
+CODE_SMELL
+d
+java:S1068",Remove this unused "telefone" private field.(¦ôÒ¯úÿÿÿÿ8ì©È–ù/Hš\RMAJORZ
+CODE_SMELL
+a
+java:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ8ì©È–ù/Hœ\RMAJORZ
+CODE_SMELL
+f
+java:S1068	"3Remove this unused "perguntaSecreta" private field.(­ªƒÚ8ì©È–ù/H\RMAJORZ
+CODE_SMELL

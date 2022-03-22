@@ -1,0 +1,14 @@
+
+k
+java:S1118
+":Add a private constructor to hide the implicit public one.(“±÷ùúÿÿÿÿH›yRMAJORZ
+CODE_SMELL
+l
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8¥¡°Çù/H™yRMINORZ
+CODE_SMELL
+•
+java:S1488½"aImmediately return this expression instead of assigning it to the temporary variable "continuar".(›”ÿ¬8Øğºëù/HÑ}RMINORZ
+CODE_SMELL
+
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Æ‡¶Ìÿÿÿÿÿ8á§çÆù/HyRCRITICALZ
+CODE_SMELL

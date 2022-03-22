@@ -1,0 +1,78 @@
+package crud_escola.modelo;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+
+public class Aluno {
+
+	private int id;
+	private String nome;
+	private ArrayList<Nota> notas;
+	private ArrayList<LocalDate> presenças;
+	private double frequencia;
+
+	public Aluno(String nome, ArrayList<Nota> notas, ArrayList<LocalDate> presenças) {
+		this.nome = nome;
+		this.notas = notas;
+		this.presenças = presenças;
+	}
+
+	public Aluno(int id, String nome, ArrayList<Nota> notas) {
+		this.id = id;
+		this.nome = nome;
+		this.notas = notas;
+	}
+
+	public Aluno() {
+	}
+	
+	
+
+	public double getFrequencia() {
+		return frequencia;
+	}
+
+	public void setFrequencia(double frequencia) {
+		this.frequencia = frequencia;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public ArrayList<Nota> getNotas() {
+		return notas;
+	}
+
+	public void setNotas(ArrayList<Nota> notas) {
+		this.notas = notas;
+	}
+
+	
+
+	public ArrayList<LocalDate> getPresenças() {
+		return presenças;
+	}
+
+	public void setPresenças(ArrayList<LocalDate> presenças) {
+		this.presenças = presenças;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "Aluno [nome=" + nome + ", notas=" + notas + ", presenças=" + presenças + "]";
+	}
+
+}

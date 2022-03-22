@@ -1,0 +1,52 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import menus.MenuAdmin;
+import menus.MenuInicial;
+import model.Usuario;
+import service.LoginService;
+
+public class Main {
+	public static void main(String[] args) throws InterruptedException {
+
+		int opcao = 0;
+
+		List<Usuario> usuarios = new ArrayList<>();
+		usuarios.add(new Usuario("ciro", "123", "admin", "19992582741", "ciro", "resposta",
+				"Ciro Vergueiro Ribeiro Neto", "12345678900"));
+//		usuarios.add(new Usuario("ciro", "123", "gerente", "19992582741", "ciro", "resposta",
+//				"Ciro Vergueiro Ribeiro Neto", "12345678900"));
+//		usuarios.add(new Usuario("ciro", "123", "vendedor", "19992582741", "ciro.neto16@gmail.com", "resposta",
+//				"Ciro Vergueiro Ribeiro Neto", "12345678900"));
+
+
+		do {
+			opcao = MenuInicial.menu();
+
+			switch (opcao) {
+			case 1:
+				int indiceUsuarioAutenticado = -1;
+				indiceUsuarioAutenticado = LoginService.autenticaUsuarioERetornaIndiceUsuario(usuarios);
+
+
+				// chamado dos menus por nível de usuario
+				if (usuarios.get(indiceUsuarioAutenticado).getNivel().equals("admin")) {
+					MenuAdmin.menu();
+				} else {
+//					menuUser();
+				}
+				break;
+
+			case 2:
+				LoginService.recuperaSenha(usuarios);
+				break;
+			default:
+				throw new IllegalArgumentException("Unexpected value: " + opcao);
+			}
+		} while (opcao != 3);
+
+	}
+
+}

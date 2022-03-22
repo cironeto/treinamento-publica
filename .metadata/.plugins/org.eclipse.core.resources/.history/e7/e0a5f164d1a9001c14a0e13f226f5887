@@ -1,0 +1,17 @@
+package crud_escola;
+
+import java.util.ArrayList;
+
+import crud_escola.dados.Dados;
+import crud_escola.formulario.FormularioInicio;
+import crud_escola.modelo.Aluno;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Dados.instanciaAlunosAdicionaLista();
+		
+		new FormularioInicio().setVisible(true);
+	}
+
+}

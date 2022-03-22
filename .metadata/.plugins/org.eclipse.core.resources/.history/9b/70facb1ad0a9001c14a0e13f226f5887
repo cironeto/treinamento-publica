@@ -1,0 +1,10 @@
+package crud_escola;
+
+import crud_escola.formulario.FormularioInicio;
+
+public class Main {
+	public static void main(String[] args) {
+		new FormularioInicio().setVisible(true);;
+	}
+
+}

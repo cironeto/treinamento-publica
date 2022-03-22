@@ -1,0 +1,20 @@
+
+
+java:S3776O"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Υ³·ÿÿÿÿÿ8¨ªρω/HΩRCRITICALZ
+CODE_SMELL
+‰
+java:S3776("RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(‹δα±8£ρω/H·RCRITICALZ
+CODE_SMELL
+k
+java:S1118	":Add a private constructor to hide the implicit public one.(“±χωϊÿÿÿÿHÿRMAJORZ
+CODE_SMELL
+‘	java:S135,"YReduce the total number of break and continue statements in this loop to use at most one.(ό§θ½ωÿÿÿÿ8£ρω/HΑRMINORZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ζ‡¶Μÿÿÿÿÿ8α§ηΖω/HσRCRITICALZ
+CODE_SMELL
+‘	java:S135R"YReduce the total number of break and continue statements in this loop to use at most one.(ό§θ½ωÿÿÿÿ8¨ªρω/HβRMINORZ
+CODE_SMELL
+
+java:S1450"fRemove the "respostaSecretaValidada" field and declare it as a local variable in the relevant methods.(ΜΨομώÿÿÿÿ8―πω/Hπ€RMINORZ
+CODE_SMELL

@@ -1,0 +1,12 @@
+
+k
+java:S1854":Remove this useless assignment to local variable "numero".(Á çªýÿÿÿÿH¡.RMAJORZ
+CODE_SMELL
+\
+java:S1481"+Remove this unused "numero" local variable.(Á çªýÿÿÿÿH¢.RMINORZ
+CODE_SMELL
+X
+java:S1125"'Remove the unnecessary boolean literal.(ä»Ø›ýÿÿÿÿH¤.RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥“ÜöH§.RMINORZ
+CODE_SMELL

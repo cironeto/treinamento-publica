@@ -1,0 +1,13 @@
+
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¶œõø/H†ZRMINORZ
+CODE_SMELL
+`
+java:S1128"-Remove this unused import 'crud_banco.Conta'.(ŸÅ«ö8¶œõø/HˆZRMINORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'javax.swing.JOptionPane'.(÷‰Îé8´Ëõø/HŠZRMINORZ
+CODE_SMELL
+m
+java:S1118":Add a private constructor to hide the implicit public one.(œÌû¹8ü¨ìôø/HŒZRMAJORZ
+CODE_SMELL

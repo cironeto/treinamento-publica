@@ -1,0 +1,10 @@
+package crud_escola.modelo;
+
+import java.util.ArrayList;
+
+public class Aluno {
+	private String nome;
+	private ArrayList<Nota> notas;
+	private ArrayList<Chamada> presenças;
+
+}

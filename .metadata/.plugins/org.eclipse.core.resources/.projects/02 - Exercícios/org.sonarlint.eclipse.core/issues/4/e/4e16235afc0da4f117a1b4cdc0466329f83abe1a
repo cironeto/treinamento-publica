@@ -1,0 +1,14 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(’„Äèûÿÿÿÿ8ÊÉÎö/HÉRMAJORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'javax.swing.JOptionPane'.(÷‰Îé8ÊÉÎö/HËRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(òëõÿşÿÿÿÿ8ëäÌÎö/H×RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(œë‹Ÿ8Û°ÊÎö/HĞRMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ßš»8ëäÌÎö/HØRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¡Õ•8ÊÉÎö/HÊRMAJORZ
+CODE_SMELL

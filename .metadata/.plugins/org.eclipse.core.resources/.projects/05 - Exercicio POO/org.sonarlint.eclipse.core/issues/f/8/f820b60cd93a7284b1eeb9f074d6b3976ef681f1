@@ -1,0 +1,10 @@
+
+r
+java:S1118":Add a private constructor to hide the implicit public one.(¹Áïñÿÿÿÿÿ8œ»œïø/H¸RRMAJORZ
+CODE_SMELL
+‡
+java:S1450
+"TRemove the "opcao" field and declare it as a local variable in the relevant methods.(úÆ£ƒ8Ñü½ïø/HÃRRMINORZ
+CODE_SMELL
+\	java:S131""Add a default case to this switch.(†²·¹úÿÿÿÿ8ÐþÎïø/HÆRRCRITICALZ
+CODE_SMELL

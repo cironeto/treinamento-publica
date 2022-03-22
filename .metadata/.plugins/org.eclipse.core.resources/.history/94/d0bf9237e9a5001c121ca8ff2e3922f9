@@ -1,0 +1,11 @@
+package interfaces;
+
+public interface CrudEscola {
+	
+	public void cadastrar(Object obj);
+	public void listar(Object obj);
+	public void alterar(Object obj);
+	public void remover(Object obj);
+	
+
+}

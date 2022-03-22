@@ -1,0 +1,21 @@
+package interfaces;
+
+import java.util.List;
+
+public interface CrudEscola {
+	
+	public static void cadastrar(List<?> list) {
+		
+	}
+	public static void listar(List<?> list) {
+		
+	}
+	public static void alterar(List<?> list) {
+		
+	}
+	public static void remover(List<?> list) {
+		
+	}
+	
+
+}

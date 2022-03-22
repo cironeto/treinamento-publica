@@ -1,0 +1,32 @@
+
+
+java:S1319="jThe type of "presenÃ§as" should be an interface such as "List" rather than the implementation "ArrayList".(•¾ù—8é’›ïú/Hµ©RMINORZ
+CODE_SMELL
+	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¾ù—8é’›ïú/H»©RMINORZ
+CODE_SMELL
+
+java:S13193"eThe type of "notas" should be an interface such as "List" rather than the implementation "ArrayList".(÷ÔÄ¸ÿÿÿÿÿ8Û«áğú/HÀ©RMINORZ
+CODE_SMELL
+‰	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÎ…§øÿÿÿÿ8É ïú/H´©RMINORZ
+CODE_SMELL
+£
+java:S1319"jThe type of "presenÃ§as" should be an interface such as "List" rather than the implementation "ArrayList".(ÀÎ…§øÿÿÿÿ8é’›ïú/H±©RMINORZ
+CODE_SMELL
+
+java:S1319"eThe type of "notas" should be an interface such as "List" rather than the implementation "ArrayList".(ö´Œıÿÿÿÿ8É ïú/H¸©RMINORZ
+CODE_SMELL
+¤
+java:S1319/"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼­®¥8é’›ïú/H½©RMINORZ
+CODE_SMELL
+†	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëœÇÚøÿÿÿÿ8é’›ïú/H¼©RMINORZ
+CODE_SMELL
+ˆ	java:S116"URename this field "presenÃ§as" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ’ÆÉ8ó¶—îú/HÇ©RMINORZ
+CODE_SMELL
+„	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¾ù—8é’›ïú/HÆ©RMINORZ
+CODE_SMELL
+
+java:S1319"eThe type of "notas" should be an interface such as "List" rather than the implementation "ArrayList".(ÀÎ…§øÿÿÿÿ8É ïú/H®©RMINORZ
+CODE_SMELL
+©
+java:S13199"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ëœÇÚøÿÿÿÿ8é’›ïú/HÃ©RMINORZ
+CODE_SMELL

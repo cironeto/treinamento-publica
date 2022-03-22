@@ -1,0 +1,64 @@
+package service;
+
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import interfaces.Crud;
+import model.Marca;
+import model.Usuario;
+
+public class MarcaService implements Crud<Marca> {
+
+	@Override
+	public void cadastrar(List<Marca> list) {
+		String nome = JOptionPane.showInputDialog("NOME: ");
+
+		list.add(new Marca(nome));
+	}
+
+	@Override
+	public void listar(List<Marca> list) {
+		String lista = "MARCAS \n";
+
+		for (int i = 0; i < list.size(); i++) {
+			lista += "ID " + (i + 1) + ": ";
+			lista += list.get(i).getNome();
+			lista += "\n";
+		}
+		JOptionPane.showMessageDialog(null, lista);
+	}
+
+	@Override
+	public void alterar(List<Marca> list) {
+		String lista = "MARCAS \n";
+
+		for (int i = 0; i < list.size(); i++) {
+			lista += "ID " + (i + 1) + ": ";
+			lista += list.get(i).getNome();
+			lista += "\n";
+		}
+		int indiceUsuarioSelecionado = (Integer
+				.parseInt(JOptionPane.showInputDialog("Selecione o ID da marca para alterar \n\n" + lista)) - 1);
+
+		String nome = JOptionPane.showInputDialog("NOME: ");
+		list.set(indiceUsuarioSelecionado, new Marca(nome));
+	}
+
+	@Override
+	public void remover(List<Marca> list) {
+		String lista = "MARCAS \n";
+
+		for (int i = 0; i < list.size(); i++) {
+			lista += "ID " + (i + 1) + ": ";
+			lista += list.get(i).getNome();
+			lista += "\n";
+		}
+		int indiceMarcaSelecionado = (Integer
+				.parseInt(JOptionPane.showInputDialog("Selecione o ID da marca para remover \n\n" + lista)) - 1);
+
+		list.remove(indiceMarcaSelecionado);
+
+	}
+
+}

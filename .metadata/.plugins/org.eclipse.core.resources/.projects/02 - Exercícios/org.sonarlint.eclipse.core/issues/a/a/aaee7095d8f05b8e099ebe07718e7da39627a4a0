@@ -1,0 +1,58 @@
+
+i	java:S106C"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿHŞtRMAJORZ
+CODE_SMELL
+i	java:S106O"9Replace this use of System.out or System.err by a logger.(ÿšÂëúÿÿÿÿHßtRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(™âİéıÿÿÿÿHàtRMAJORZ
+CODE_SMELL
+i	java:S1061"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿHátRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¢ªşÿÿÿÿHâtRMAJORZ
+CODE_SMELL
+i	java:S1060"9Replace this use of System.out or System.err by a logger.(¹—ÎùÿÿÿÿHãtRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¥öêÍHätRMAJORZ
+CODE_SMELL
+i	java:S106A"9Replace this use of System.out or System.err by a logger.(¡àÆ¯úÿÿÿÿHåtRMAJORZ
+CODE_SMELL
+i	java:S106("9Replace this use of System.out or System.err by a logger.(ØºíŠıÿÿÿÿHætRMAJORZ
+CODE_SMELL
+i	java:S106/"9Replace this use of System.out or System.err by a logger.(×Ùò•øÿÿÿÿHçtRMAJORZ
+CODE_SMELL
+d	java:S106@"9Replace this use of System.out or System.err by a logger.(ñ‚ÀÇHètRMAJORZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(Çµí‘HétRCRITICALZ
+CODE_SMELL
+i	java:S106B"9Replace this use of System.out or System.err by a logger.(“€Ù±ùÿÿÿÿHøtRMAJORZ
+CODE_SMELL
+d	java:S106?"9Replace this use of System.out or System.err by a logger.(†‰ëñHùtRMAJORZ
+CODE_SMELL
+i	java:S106["9Replace this use of System.out or System.err by a logger.( ¯¹æûÿÿÿÿHútRMAJORZ
+CODE_SMELL
+^
+java:S6126"2Replace this String concatenation with Text block.(¥öêÍHûtRMAJORZ
+CODE_SMELL
+i	java:S106m"9Replace this use of System.out or System.err by a logger.(şÿ›üÿÿÿÿHütRMAJORZ
+CODE_SMELL
+c	java:S106j"9Replace this use of System.out or System.err by a logger.(ÑüÍHıtRMAJORZ
+CODE_SMELL
+c	java:S106."9Replace this use of System.out or System.err by a logger.(‹ù˜HştRMAJORZ
+CODE_SMELL
+i	java:S106R"9Replace this use of System.out or System.err by a logger.(ĞÒß¬üÿÿÿÿHÿtRMAJORZ
+CODE_SMELL
+d	java:S106L"9Replace this use of System.out or System.err by a logger.(ªü»óH€uRMAJORZ
+CODE_SMELL
+i	java:S1067"9Replace this use of System.out or System.err by a logger.(ÀêùÑøÿÿÿÿHuRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(‹ôå®ûÿÿÿÿH‚uRMAJORZ
+CODE_SMELL
+`
+java:S1128"4Remove this unused import 'javax.swing.JOptionPane'.(÷‰ÎéHƒuRMINORZ
+CODE_SMELL
+i	java:S106p"9Replace this use of System.out or System.err by a logger.(™µ—ıÿÿÿÿH…uRMAJORZ
+CODE_SMELL
+d	java:S106-"9Replace this use of System.out or System.err by a logger.(Ûñ›ÌH†uRMAJORZ
+CODE_SMELL
+d	java:S106I"9Replace this use of System.out or System.err by a logger.(âˆH‡uRMAJORZ
+CODE_SMELL

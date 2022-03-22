@@ -1,0 +1,16 @@
+
+f
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8Ø…¼õø/H¾ZRMINORZ
+CODE_SMELL
+b
+java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ8Ø…¼õø/HÀZRMINORZ
+CODE_SMELL
+^
+java:S1128"+Remove this unused import 'java.io.Reader'.(µû¨é8Ø…¼õø/H¼ZRMINORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.nio.file.Paths'.(áè°¯8Ø…¼õø/H¸ZRMINORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8Ø…¼õø/HºZRMINORZ
+CODE_SMELL

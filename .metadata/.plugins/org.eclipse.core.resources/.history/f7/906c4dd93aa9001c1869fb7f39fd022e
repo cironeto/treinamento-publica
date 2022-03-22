@@ -1,0 +1,147 @@
+package crud_produtos.view;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import crud_produtos.modelo.Produto;
+import crud_produtos.service.ProdutoService;
+
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JButton;
+import javax.swing.JScrollPane;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+import javax.swing.JTable;
+
+public class Form extends JFrame {
+
+	private JPanel contentPane;
+	private JPanel crudPanel;
+	private JTextField txtCampoNomeProduto;
+	private JTextField txtCampoMarcaProduto;
+	private JTextField txtCampoSegmentoProduto;
+	private JTextField txtCampoValorProduto;
+	private JTable table;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Form frame = new Form();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Form() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 662, 357);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblHeader = new JLabel("CRUD PRODUTOS");
+		lblHeader.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblHeader.setBounds(250, 11, 156, 19);
+		contentPane.add(lblHeader);
+		
+		JButton btnCadastrar = new JButton("CADASTRAR");
+		btnCadastrar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+//				crudPanel.setVisible(true);
+				Produto produto = new Produto();
+				produto.setNome(txtCampoNomeProduto.getText());
+				produto.setMarca(txtCampoMarcaProduto.getText());
+				produto.setSegmento(txtCampoSegmentoProduto.getText());
+				produto.setValor(Double.parseDouble(txtCampoValorProduto.getText()));
+				
+				ProdutoService.cadastrar(produto);
+				
+				ProdutoService.listar();
+			}
+		});
+		btnCadastrar.setBounds(46, 41, 127, 33);
+		contentPane.add(btnCadastrar);
+		
+		JButton btnListar = new JButton("LISTAR");
+		btnListar.setBounds(183, 41, 127, 33);
+		contentPane.add(btnListar);
+		
+		JButton btnAlterar = new JButton("ALTERAR");
+		btnAlterar.setBounds(317, 41, 127, 33);
+		contentPane.add(btnAlterar);
+		
+		JButton btnRemover = new JButton("REMOVER");
+		btnRemover.setBounds(454, 41, 127, 33);
+		contentPane.add(btnRemover);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(10, 164, 610, 143);
+		contentPane.add(scrollPane);
+		
+		table = new JTable(ProdutoService.listar());
+		scrollPane.setViewportView(table);
+		
+		crudPanel = new JPanel();
+		crudPanel.setBounds(10, 85, 615, 68);
+//		crudPanel.setVisible(false);
+		contentPane.add(crudPanel);
+		crudPanel.setLayout(null);
+		
+		JLabel lblNomeProduto = new JLabel("Produto");
+		lblNomeProduto.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNomeProduto.setBounds(0, 11, 56, 14);
+		crudPanel.add(lblNomeProduto);
+		
+		txtCampoNomeProduto = new JTextField();
+		txtCampoNomeProduto.setBounds(0, 36, 120, 20);
+		crudPanel.add(txtCampoNomeProduto);
+		txtCampoNomeProduto.setColumns(10);
+		
+		txtCampoMarcaProduto = new JTextField();
+		txtCampoMarcaProduto.setColumns(10);
+		txtCampoMarcaProduto.setBounds(130, 36, 120, 20);
+		crudPanel.add(txtCampoMarcaProduto);
+		
+		JLabel lblMarca = new JLabel("Marca");
+		lblMarca.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblMarca.setBounds(130, 11, 56, 14);
+		crudPanel.add(lblMarca);
+		
+		txtCampoSegmentoProduto = new JTextField();
+		txtCampoSegmentoProduto.setColumns(10);
+		txtCampoSegmentoProduto.setBounds(260, 36, 120, 20);
+		crudPanel.add(txtCampoSegmentoProduto);
+		
+		txtCampoValorProduto = new JTextField();
+		txtCampoValorProduto.setColumns(10);
+		txtCampoValorProduto.setBounds(390, 36, 120, 20);
+		crudPanel.add(txtCampoValorProduto);
+		
+		JLabel lblNomeProduto_1_1 = new JLabel("Valor");
+		lblNomeProduto_1_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNomeProduto_1_1.setBounds(390, 11, 56, 14);
+		crudPanel.add(lblNomeProduto_1_1);
+		
+		JLabel lblSegmento = new JLabel("Segmento");
+		lblSegmento.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblSegmento.setBounds(260, 11, 87, 14);
+		crudPanel.add(lblSegmento);
+	}
+}

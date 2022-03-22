@@ -1,0 +1,83 @@
+
+‡
+java:S1192*"LDefine a constant instead of duplicating this literal "***CONTATO " 3 times.(¬Ô€®ıÿÿÿÿ8™˜ıÉø/H…hRCRITICALZ
+CODE_SMELL
+k	java:S106u"9Replace this use of System.out or System.err by a logger.(öíšé8û²Êø/H‰hRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(™ÉôïÿÿÿÿÿHŠhRMAJORZ
+CODE_SMELL
+d	java:S1060"9Replace this use of System.out or System.err by a logger.(ò²ÑH‹hRMAJORZ
+CODE_SMELL
+p	java:S106B"9Replace this use of System.out or System.err by a logger.(çÅ„¿ıÿÿÿÿ8™˜ıÉø/HŒhRMAJORZ
+CODE_SMELL
+p	java:S106\"9Replace this use of System.out or System.err by a logger.(³ş™¬ûÿÿÿÿ8™˜ıÉø/HhRMAJORZ
+CODE_SMELL
+p	java:S106I"9Replace this use of System.out or System.err by a logger.(İè´¤şÿÿÿÿ8±ÁãÉø/HhRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ÒÊ¢HhRMAJORZ
+CODE_SMELL
+d	java:S1061"9Replace this use of System.out or System.err by a logger.(™²“õHhRMAJORZ
+CODE_SMELL
+p	java:S106;"9Replace this use of System.out or System.err by a logger.(¬Ô€®ıÿÿÿÿ8±ÁãÉø/H‘hRMAJORZ
+CODE_SMELL
+d	java:S106'"9Replace this use of System.out or System.err by a logger.(™²“õH’hRMAJORZ
+CODE_SMELL
+k	java:S106<"9Replace this use of System.out or System.err by a logger.(¬™‡Ÿ8±ÁãÉø/H“hRMAJORZ
+CODE_SMELL
+k	java:S106b"9Replace this use of System.out or System.err by a logger.(¬™‡Ÿ8›¨ğÉø/H”hRMAJORZ
+CODE_SMELL
+e
+java:S1481@"2Remove this unused "pessoaAlterar" local variable.(ÿ¢¢³8±ÁãÉø/H•hRMINORZ
+CODE_SMELL
+p	java:S106p"9Replace this use of System.out or System.err by a logger.(ÓÆ€øÿÿÿÿ8û²Êø/H—hRMAJORZ
+CODE_SMELL
+p	java:S106U"9Replace this use of System.out or System.err by a logger.(ı·şÅûÿÿÿÿ8›¨ğÉø/H˜hRMAJORZ
+CODE_SMELL
+k
+java:S1118":Add a private constructor to hide the implicit public one.(ş‹ùÿÿÿÿH™hRMAJORZ
+CODE_SMELL
+k	java:S1066"9Replace this use of System.out or System.err by a logger.(şéô§8±ÁãÉø/HšhRMAJORZ
+CODE_SMELL
+d	java:S106+"9Replace this use of System.out or System.err by a logger.(¬™‡ŸH›hRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¢“ŸªHœhRMAJORZ
+CODE_SMELL
+i	java:S106&"9Replace this use of System.out or System.err by a logger.(Ú¤†³ÿÿÿÿÿHhRMAJORZ
+CODE_SMELL
+k	java:S106w"9Replace this use of System.out or System.err by a logger.(ÔüØ8û²Êø/HhRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ê¨Ç×øÿÿÿÿHŸhRMAJORZ
+CODE_SMELL
+p	java:S106O"9Replace this use of System.out or System.err by a logger.(â›¥øÿÿÿÿ8›¨ğÉø/H hRMAJORZ
+CODE_SMELL
+p	java:S106a"9Replace this use of System.out or System.err by a logger.(¬Ô€®ıÿÿÿÿ8™˜ıÉø/H¡hRMAJORZ
+CODE_SMELL
+p	java:S106f"9Replace this use of System.out or System.err by a logger.(âïŒ½ùÿÿÿÿ8™˜ıÉø/H¢hRMAJORZ
+CODE_SMELL
+d	java:S106-"9Replace this use of System.out or System.err by a logger.(ŸÔğH£hRMAJORZ
+CODE_SMELL
+k	java:S106R"9Replace this use of System.out or System.err by a logger.(Ù€øğ8›¨ğÉø/H¤hRMAJORZ
+CODE_SMELL
+p	java:S106L"9Replace this use of System.out or System.err by a logger.(Èä×Êşÿÿÿÿ8±ÁãÉø/H¥hRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¿Ä²ºıÿÿÿÿH¦hRMAJORZ
+CODE_SMELL
+k	java:S106F"9Replace this use of System.out or System.err by a logger.(ÓŞÀ×8±ÁãÉø/H§hRMAJORZ
+CODE_SMELL
+i	java:S106."9Replace this use of System.out or System.err by a logger.(‡•°´øÿÿÿÿH¨hRMAJORZ
+CODE_SMELL
+t
+java:S1854@"ARemove this useless assignment to local variable "pessoaAlterar".(ÿ¢¢³8±ÁãÉø/H©hRMAJORZ
+CODE_SMELL
+d	java:S106,"9Replace this use of System.out or System.err by a logger.(êìáÿHªhRMAJORZ
+CODE_SMELL
+i	java:S106*"9Replace this use of System.out or System.err by a logger.(¬Ô€®ıÿÿÿÿH«hRMAJORZ
+CODE_SMELL
+i	java:S106/"9Replace this use of System.out or System.err by a logger.(ëİÉûşÿÿÿÿH¬hRMAJORZ
+CODE_SMELL
+p	java:S106X"9Replace this use of System.out or System.err by a logger.(Ò¥«şÿÿÿÿ8›¨ğÉø/H­hRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ä÷ÛÊH®hRMAJORZ
+CODE_SMELL
+p	java:S106l"9Replace this use of System.out or System.err by a logger.(È¡ùØşÿÿÿÿ8™˜ıÉø/H¯hRMAJORZ
+CODE_SMELL

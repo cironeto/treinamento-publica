@@ -1,0 +1,22 @@
+1647265277612	Rename local variable 'pesquisa'
+1647265287087	Rename local variable 'nomeRemover'
+1647265996289	Rename package 'agenda'
+1647274313498	Rename type 'Cadastro'
+1647276561257	Rename method 'pesquisaAlunoPorNome'
+1647285310331	Rename local variable 'idAlunoSelecionado'
+1647288542399	Rename local variable 'aluno'
+1647343804625	Rename method 'cadastrarProva'
+1647343811112	Rename method 'alterarProva'
+1647343821227	Rename method 'listarProvas'
+1647343837860	Rename method 'listarAlunos'
+1647343844255	Rename method 'listarAlunoPorId'
+1647343856270	Rename method 'cadastrarNota'
+1647346056151	Rename field 'nomeTitula'
+1647347356084	Rename field 'login'
+1647347714563	Rename local variable 'loginEncontrado'
+1647351590843	Rename local variable 'autenticado'
+1647355420818	Rename method 'menuOpcoesSaldo'
+1647362763966	Move file
+1647362891067	Move file
+1647365686264	Rename method 'autenticaUsuarioRetornoIndiceUsuario'
+1647368849914	Copy compilation unit

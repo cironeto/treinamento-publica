@@ -1,0 +1,25 @@
+
+c
+java:S1128"*Remove this unused import 'model.Usuario'.(¬îÕ£üÿÿÿÿ8·Ã¨Âù/H«€RMINORZ
+CODE_SMELL
+U
+java:S1643J"Use a StringBuilder instead.(·æÇ´øÿÿÿÿ8óÅàÅù/Hµ€RMINORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8·Ã¨Âù/H¶€RMINORZ
+CODE_SMELL
+P
+java:S1643H"Use a StringBuilder instead.(çƒáş8ş®ÒÅù/H¯€RMINORZ
+CODE_SMELL
+P
+java:S1643I"Use a StringBuilder instead.(¬³ø8ş®ÒÅù/Hª€RMINORZ
+CODE_SMELL
+`
+java:S1128",Remove this unused import 'interfaces.Crud'.(¸Ñ¬ä8‡™ÿÂù/H­€RMINORZ
+CODE_SMELL
+•
+java:S1192"YDefine a constant instead of duplicating this literal "Insira um numero vÃ¡lido" 3 times.(“Õ¶ÿÿÿÿÿ8Ó¾ßèù/H°€RCRITICALZ
+CODE_SMELL
+P
+java:S1643G"Use a StringBuilder instead.(½ÚË¥8ş®ÒÅù/H´€RMINORZ
+CODE_SMELL

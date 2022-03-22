@@ -1,0 +1,25 @@
+
+q
+java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ŞÛ8ç…äøø/H²kRMINORZ
+CODE_SMELL
+Ğ
+java:S1192"™Define a constant instead of duplicating this literal "C:\\Users\\publica\\treinamento-publica\\05 - Exercicio POO\\src\\crud_txt\\produtos.txt" 4 times.(¸Ãï8ïÅ¤øø/H´kRCRITICALZ
+CODE_SMELL
+O
+java:S1643<"Use a StringBuilder instead.(à½”ë8™¤ÿöø/H¹kRMINORZ
+CODE_SMELL
+O
+java:S1643>"Use a StringBuilder instead.(ú”ƒë8™¤ÿöø/HºkRMINORZ
+CODE_SMELL
+r
+java:S1118":Add a private constructor to hide the implicit public one.(Áû¢„ıÿÿÿÿ8ë¸íõø/H»kRMAJORZ
+CODE_SMELL
+T
+java:S1643="Use a StringBuilder instead.(Ôô†¦øÿÿÿÿ8™¤ÿöø/H¼kRMINORZ
+CODE_SMELL
+O
+java:S1643?"Use a StringBuilder instead.(€ÆÏØ8¹ÍÄ÷ø/H½kRMINORZ
+CODE_SMELL
+O
+java:S1643@"Use a StringBuilder instead.(Ç¨¿‰8™¤ÿöø/H¾kRMINORZ
+CODE_SMELL

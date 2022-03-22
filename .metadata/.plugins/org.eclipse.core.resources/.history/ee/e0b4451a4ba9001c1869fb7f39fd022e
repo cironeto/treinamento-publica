@@ -1,0 +1,19 @@
+package crud_escola.modelo;
+
+import java.util.ArrayList;
+
+public class Aluno {
+	private String nome;
+	private ArrayList<Nota> notas;
+	private ArrayList<Chamada> presenças;
+	
+	public Aluno(String nome, ArrayList<Nota> notas, ArrayList<Chamada> presenças) {
+		super();
+		this.nome = nome;
+		this.notas = notas;
+		this.presenças = presenças;
+	}
+	
+	
+
+}

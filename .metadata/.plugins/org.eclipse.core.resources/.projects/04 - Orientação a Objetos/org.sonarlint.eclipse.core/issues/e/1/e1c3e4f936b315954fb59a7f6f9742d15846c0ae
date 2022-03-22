@@ -1,0 +1,12 @@
+
+m
+java:S1118":Add a private constructor to hide the implicit public one.(ù¸è¾8‡Ş…Ãø/HŒARMAJORZ
+CODE_SMELL
+Œ
+java:S1104"TMake mensagem a static final constant or non-public and provide accessors if needed.(çØ‚Ôùÿÿÿÿ8İÀ€Ãø/HŠARMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ş››H‰ARMINORZ
+CODE_SMELL
+f
+java:S1444".Make this "public static mensagem" field final(çØ‚Ôùÿÿÿÿ8‡Ş…Ãø/HARMINORZ
+CODE_SMELL

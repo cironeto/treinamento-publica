@@ -1,0 +1,67 @@
+package crud_escola.formulario;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import crud_escola.modelo.Aluno;
+import crud_escola.service.AlunoService;
+
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+public class FormularioAluno extends JFrame {
+
+	private JPanel contentPane;
+	private static Aluno aluno;
+	private JTable table;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					FormularioAluno frame = new FormularioAluno(aluno);
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public FormularioAluno(Aluno aluno) {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 328);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblInicio = new JLabel("");
+		lblInicio.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblInicio.setBounds(23, 11, 387, 24);
+		lblInicio.setText("Olá " + aluno.getNome());
+		contentPane.add(lblInicio);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(10, 100, 414, 62);
+		contentPane.add(scrollPane);
+		
+		table = new JTable(AlunoService.listaDadosAlunoSelecionado(aluno));
+		scrollPane.setViewportView(table);
+		
+		
+	}
+
+}
