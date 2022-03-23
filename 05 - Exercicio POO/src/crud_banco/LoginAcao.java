@@ -19,7 +19,7 @@ public class LoginAcao {
 				String usuarioDigitado = JOptionPane.showInputDialog("Usuário:");
 
 				for (int i = 0; i < contas.size(); i++) {
-					if (usuarioDigitado.equals(contas.get(i).getUsuario())) {
+					if (usuarioDigitado.equals(contas.get(i).getNomeTitular())) {
 						usuarioEncontrado = true;
 						indiceUsuario = i;
 						break;

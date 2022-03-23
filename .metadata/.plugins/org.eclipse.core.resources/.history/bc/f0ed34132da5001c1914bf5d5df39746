@@ -1,8 +1,0 @@
-package interfaces;
-
-public class CrudEscola {
-	
-	public void cadastrar(Object obj);
-	
-
-}

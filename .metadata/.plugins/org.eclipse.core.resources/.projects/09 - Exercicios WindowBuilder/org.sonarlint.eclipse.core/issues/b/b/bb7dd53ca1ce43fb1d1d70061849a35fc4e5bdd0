@@ -1,32 +1,32 @@
 
+†
+java:S1104"RMake alunos a static final constant or non-public and provide accessors if needed.(öõ»×8Ş©Š–û/H·üRMINORZ
+CODE_SMELL
 ’
-java:S1104"YMake ContagemAulas a static final constant or non-public and provide accessors if needed.(«Úúÿÿÿÿ8¸¡—û/HÏªRMINORZ
-CODE_SMELL
-l
-java:S1444"3Make this "public static ContagemAulas" field final(«Úúÿÿÿÿ8¸¡—û/HĞªRMINORZ
-CODE_SMELL
-`
-java:S1444",Make this "public static alunos" field final(öõ»×8Ş©Š–û/HÑªRMINORZ
-CODE_SMELL
-Q
-java:S2386"Make this member "protected".(öõ»×8Ş©Š–û/HÒªRMINORZ
+java:S1104"YMake ContagemAulas a static final constant or non-public and provide accessors if needed.(«Úúÿÿÿÿ8¸¡—û/H¸üRMINORZ
 CODE_SMELL
 n
 java:S1118
-":Add a private constructor to hide the implicit public one.(ƒÍØÙ8Šâğú/HÓªRMAJORZ
-CODE_SMELL
-‘
-java:S3008"XRename this field "ContagemAulas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Úúÿÿÿÿ8¸¡—û/HÔªRMINORZ
-CODE_SMELL
-‹
-java:S1104"RMake provas a static final constant or non-public and provide accessors if needed.(ËµÄŠûÿÿÿÿ8Ş©Š–û/HÕªRMINORZ
+":Add a private constructor to hide the implicit public one.(ƒÍØÙ8Šâğú/H¹üRMAJORZ
 CODE_SMELL
 e
-java:S1444",Make this "public static provas" field final(ËµÄŠûÿÿÿÿ8Ş©Š–û/HÖªRMINORZ
+java:S1444",Make this "public static provas" field final(ËµÄŠûÿÿÿÿ8Ş©Š–û/HºüRMINORZ
+CODE_SMELL
+`
+java:S1444",Make this "public static alunos" field final(öõ»×8Ş©Š–û/H»üRMINORZ
+CODE_SMELL
+‹
+java:S1104"RMake provas a static final constant or non-public and provide accessors if needed.(ËµÄŠûÿÿÿÿ8Ş©Š–û/H¼üRMINORZ
+CODE_SMELL
+‘
+java:S3008"XRename this field "ContagemAulas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Úúÿÿÿÿ8¸¡—û/H½üRMINORZ
+CODE_SMELL
+l
+java:S1444"3Make this "public static ContagemAulas" field final(«Úúÿÿÿÿ8¸¡—û/H¾üRMINORZ
 CODE_SMELL
 V
-java:S2386"Make this member "protected".(ËµÄŠûÿÿÿÿ8Ş©Š–û/H×ªRMINORZ
+java:S2386"Make this member "protected".(ËµÄŠûÿÿÿÿ8Ş©Š–û/H¿üRMINORZ
 CODE_SMELL
-†
-java:S1104"RMake alunos a static final constant or non-public and provide accessors if needed.(öõ»×8Ş©Š–û/HØªRMINORZ
+Q
+java:S2386"Make this member "protected".(öõ»×8Ş©Š–û/HÀüRMINORZ
 CODE_SMELL

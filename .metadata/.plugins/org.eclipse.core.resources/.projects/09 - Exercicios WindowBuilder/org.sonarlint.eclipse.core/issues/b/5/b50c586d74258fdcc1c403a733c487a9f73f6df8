@@ -1,30 +1,30 @@
 
-z
-java:S1128"ARemove this unused import 'crud_produtos.service.ProdutoService'.(Ú†‡öúÿÿÿÿ8± Œû/HäªRMINORZ
-CODE_SMELL
 b
-java:S1068")Remove this unused "aluno" private field.(×‚ßÙÿÿÿÿÿ8å ­™û/H€«RMAJORZ
+java:S1068")Remove this unused "aluno" private field.(×‚ßÙÿÿÿÿÿ8å ­™û/HïùRMAJORZ
 CODE_SMELL
-m
-java:S1128"9Remove this unused import 'crud_produtos.modelo.Produto'.(ùş§µ8± Œû/HáªRMINORZ
-CODE_SMELL
-~
-java:S3252%"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿHÚªRCRITICALZ
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8å ­™û/HñùRMINORZ
 CODE_SMELL
 \
-java:S1604G"(Make this anonymous inner class a lambda(ôÇ8Š¿ÄŠû/HÙªRMAJORZ
+java:S1604G"(Make this anonymous inner class a lambda(ôÇ8Š¿ÄŠû/HóùRMAJORZ
 CODE_SMELL
-f
-java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8± Œû/HŞªRMINORZ
-CODE_SMELL
-d
-java:S1948!"(Make "alunos" transient or serializable.(ÄÄæŠüÿÿÿÿ8îí©‹û/HÜªRCRITICALZ
+z
+java:S1128"ARemove this unused import 'crud_produtos.service.ProdutoService'.(Ú†‡öúÿÿÿÿ8± Œû/HôùRMINORZ
 CODE_SMELL
 d
-java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8å ­™û/HşªRMINORZ
+java:S1948!"(Make "alunos" transient or serializable.(ÄÄæŠüÿÿÿÿ8îí©‹û/HöùRCRITICALZ
 CODE_SMELL
 a
-java:S1604a"(Make this anonymous inner class a lambda(Ü­”Ìşÿÿÿÿ8Å‘¾ğú/HİªRMAJORZ
+java:S1604a"(Make this anonymous inner class a lambda(Ü­”Ìşÿÿÿÿ8Å‘¾ğú/H÷ùRMAJORZ
 CODE_SMELL
-„	java:S116 "RRename this field "table_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„«Öz8Á°Öğú/HãªRMINORZ
+„	java:S116 "RRename this field "table_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„«Öz8Á°Öğú/HøùRMINORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8± Œû/HùùRMINORZ
+CODE_SMELL
+m
+java:S1128"9Remove this unused import 'crud_produtos.modelo.Produto'.(ùş§µ8± Œû/HûùRMINORZ
+CODE_SMELL
+~
+java:S3252%"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿHıùRCRITICALZ
 CODE_SMELL

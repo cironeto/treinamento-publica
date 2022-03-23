@@ -1,19 +1,19 @@
 
 q
-java:S25890"8Remove this expression which always evaluates to "false"(¢ÔÆõûÿÿÿÿ8Ô¦íø/Hì…RMAJORZ
-CODE_SMELL
-p
-java:S2589,"7Remove this expression which always evaluates to "true"(²è½šüÿÿÿÿ8Ô¦íø/HÓ…RMAJORZ
+java:S25890"8Remove this expression which always evaluates to "false"(¢ÔÆõûÿÿÿÿ8Ô¦íø/H“­RMAJORZ
 CODE_SMELL
 
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(õœÈ£şÿÿÿÿ8ŠÑËõø/HÜ…RCRITICALZ
-CODE_SMELL
-p
-java:S2589,"7Remove this expression which always evaluates to "true"(²è½šüÿÿÿÿ8×¨ íø/Hç…RMAJORZ
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(õœÈ£şÿÿÿÿ8ŠÑËõø/H–­RCRITICALZ
 CODE_SMELL
 `
-java:S1125"'Remove the unnecessary boolean literal.(É¢Ñúÿÿÿÿ8û˜‡ïø/HÙ…RMINORZ
+java:S1125"'Remove the unnecessary boolean literal.(É¢Ñúÿÿÿÿ8û˜‡ïø/H¡­RMINORZ
+CODE_SMELL
+p
+java:S2589,"7Remove this expression which always evaluates to "true"(²è½šüÿÿÿÿ8Ô¦íø/H¤­RMAJORZ
+CODE_SMELL
+p
+java:S2589,"7Remove this expression which always evaluates to "true"(²è½šüÿÿÿÿ8×¨ íø/H©­RMAJORZ
 CODE_SMELL
 n
-java:S1118	":Add a private constructor to hide the implicit public one.(çŒ™ˆ8à–šíø/HØ…RMAJORZ
+java:S1118	":Add a private constructor to hide the implicit public one.(çŒ™ˆ8à–šíø/H®­RMAJORZ
 CODE_SMELL

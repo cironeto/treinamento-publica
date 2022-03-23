@@ -1,12 +1,12 @@
 
 u
-java:S3518t"EMake sure "quantidadeNotas" can't be zero before doing this division.(İşŠ‡8×öÆ•û/Hû¨RCRITICALZBUG
-s
-java:S1118":Add a private constructor to hide the implicit public one.(—ì—Ãúÿÿÿÿ8àÀ‘ğú/H€©RMAJORZ
-CODE_SMELL
+java:S3518t"EMake sure "quantidadeNotas" can't be zero before doing this division.(İşŠ‡8×öÆ•û/HÄüRCRITICALZBUG
 k
-java:S1128"2Remove this unused import 'javax.swing.JCheckBox'.(ˆ£…ğüÿÿÿÿ8À—û/Hƒ©RMINORZ
+java:S1128"2Remove this unused import 'javax.swing.JCheckBox'.(ˆ£…ğüÿÿÿÿ8À—û/HÁüRMINORZ
+CODE_SMELL
+s
+java:S1118":Add a private constructor to hide the implicit public one.(—ì—Ãúÿÿÿÿ8àÀ‘ğú/HÃüRMAJORZ
 CODE_SMELL
 i
-java:S1128"5Remove this unused import 'crud_escola.modelo.Prova'.(öºç¤8À—û/Hù¨RMINORZ
+java:S1128"5Remove this unused import 'crud_escola.modelo.Prova'.(öºç¤8À—û/HÇüRMINORZ
 CODE_SMELL

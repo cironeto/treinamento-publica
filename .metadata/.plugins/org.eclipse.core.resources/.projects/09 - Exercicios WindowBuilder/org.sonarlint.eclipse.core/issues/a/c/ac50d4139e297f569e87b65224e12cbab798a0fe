@@ -1,13 +1,13 @@
 
 f
-java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8Ôö‚—û/H÷©RMINORZ
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8Ôö‚—û/H…RMINORZ
 CODE_SMELL
 ~
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿH«ªRCRITICALZ
-CODE_SMELL
-a
-java:S1604,"(Make this anonymous inner class a lambda(Ü­”Ìşÿÿÿÿ8Ää³—û/HªªRMAJORZ
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿH”…RCRITICALZ
 CODE_SMELL
 d
-java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8çş°™û/HÁ¬RMINORZ
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8çş°™û/H‘…RMINORZ
+CODE_SMELL
+a
+java:S1604,"(Make this anonymous inner class a lambda(Ü­”Ìşÿÿÿÿ8Ää³—û/H“…RMAJORZ
 CODE_SMELL
