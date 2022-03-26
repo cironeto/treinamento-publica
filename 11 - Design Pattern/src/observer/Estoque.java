@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Estoque implements Observable {
-	private int quantidade;
+	 int quantidade = 200;
 	
 	private List<Observer> observers = new ArrayList();	
 
@@ -13,6 +13,12 @@ public class Estoque implements Observable {
 		this.quantidade = quantidade;
 		this.notificarObservers();
 	}
+	
+
+	public int getQuantidade() {
+		return quantidade;
+	}
+
 
 	@Override
 	public void registrarObserver(Observer observer) {
@@ -27,6 +33,7 @@ public class Estoque implements Observable {
 
 	@Override
 	public void notificarObservers() {
+		System.out.println("\n ---- Notificando Observers ---- \n");
 		for (Observer ob : observers) {
 			ob.update(this.quantidade);
 		}
