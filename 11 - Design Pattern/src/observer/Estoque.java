@@ -33,7 +33,7 @@ public class Estoque implements Observable {
 
 	@Override
 	public void notificarObservers() {
-		System.out.println("\n ---- Notificando Observers ---- \n");
+		System.out.println("\n ---- NOTIFICANDO OBSERVERS ---- \n");
 		for (Observer ob : observers) {
 			ob.update(this.quantidade);
 		}

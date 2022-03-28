@@ -1,6 +1,0 @@
-package model;
-
-public class Marca {
-	private String nome;
-
-}

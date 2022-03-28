@@ -15,11 +15,10 @@ public class SistemaCompras implements Observer {
 	
 	public void setQuantidadeComprar(int quantidadeComprar) {
 		this.quantidadeComprar = quantidadeComprar;
-		System.out.println("Alterando a quantidade a ser incluida no pedido de compra");
 	}
 
 	public void disparaPedidoDeCompra(int quantidade) {
-		System.out.println("Disparando método de pedido de compra \n");
+		System.out.println("Ação Requisitada: Disparando método de pedido de compra \n");
 	}
 
 }

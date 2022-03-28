@@ -1,9 +1,0 @@
-package interfaces;
-
-import java.util.List;
-
-public interface CrudDependenciaOutroArray<E, T> {
-	
-	public void cadastrarDependenciaOutroArray(List<E> list, List<T> list2);
-
-}

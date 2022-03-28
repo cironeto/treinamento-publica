@@ -10,7 +10,7 @@ class Gerente implements Observer {
 	}
 
 	public void disparaNotificacaoParaGerente() {
-		System.out.println("Disparando método de aviso de atualização para Gerente \n");
+		System.out.println("Ação Requisitada: Disparando método de aviso de atualização para Gerente \n");
 	}
 	
 }
