@@ -1,0 +1,21 @@
+1648034953111	Delete element
+1648034968363	Delete element
+1648035263279	Delete element
+1648038540836	Rename type 'Investimento'
+1648042443184	Rename type 'Feriados'
+1648042994893	Rename type 'Feriado'
+1648047368258	Rename type 'JurosUtil'
+1648053633511	Rename type 'CalculoPoupanca'
+1648053822437	Rename field 'rendimentoMensalPoupanca'
+1648053828936	Rename field 'taxaRendimentoMensalPoupanca'
+1648053836578	Rename field 'rendimentoMensalCDB'
+1648053841786	Rename field 'rendimentoMensalLCI'
+1648056228580	Rename type 'DateUtil'
+1648059848122	Rename type 'Dates'
+1648059932817	Rename local variable 'dias'
+1648064352129	Delete element
+1648066076306	Rename type 'Grafico'
+1648066326129	Delete element
+1648066515998	Delete element
+1648066521652	Delete element
+1648072637202	Copy packages

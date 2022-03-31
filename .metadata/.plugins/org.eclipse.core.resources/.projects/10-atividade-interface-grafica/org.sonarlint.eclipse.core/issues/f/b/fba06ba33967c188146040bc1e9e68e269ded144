@@ -1,0 +1,29 @@
+
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8¹†‚½û/HôRMINORZ
+CODE_SMELL
+ƒ
+java:S1192("GDefine a constant instead of duplicating this literal "Tahoma" 3 times.(ÍÅÄíúÿÿÿÿ8şÒê´û/HËşRCRITICALZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(ÕĞœ]8şÒê´û/HÔúRMAJORZ
+CODE_SMELL
+~
+java:S3252 "IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿHÏşRCRITICALZ
+CODE_SMELL
+k
+java:S1128
+"7Remove this unused import 'org.jfree.chart.JFreeChart'.(Õ˜„Ä8¹†‚½û/HöRMINORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.(íÿì°8¹†‚½û/HòRMINORZ
+CODE_SMELL
+h
+java:S3740;"/Provide the parametrized type for this generic.(¦ÂÆ¸ùÿÿÿÿ8şÒê´û/H×úRMAJORZ
+CODE_SMELL
+n
+java:S1128"5Remove this unused import 'javax.swing.JRadioButton'.(ÛÕÚºüÿÿÿÿ8¹†‚½û/HøRMINORZ
+CODE_SMELL
+c
+java:S1128"*Remove this unused import 'util.Calculos'.(ñ¤åÙùÿÿÿÿ8óŒ­½û/HÆƒRMINORZ
+CODE_SMELL

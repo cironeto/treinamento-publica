@@ -1,0 +1,45 @@
+
+\
+java:S3740+"/Provide the parametrized type for this generic.(ÌŸã¾HŒRMAJORZ
+CODE_SMELL
+¢
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¿ìçÿÿÿÿÿH«ŒRMINORZ
+CODE_SMELL
+^
+java:S2201P",The return value of "plusDays" must be used.(Óè«¡øÿÿÿÿ8³™èÁû/H­‘RMAJORZBUG
+^
+java:S2201N",The return value of "plusDays" must be used.(¾ş°«úÿÿÿÿ8³™èÁû/H¬‘RMAJORZBUG
+\
+java:S1128
+"/Remove this unused import 'java.util.Calendar'.(ÿÛö´H¥ŒRMINORZ
+CODE_SMELL
+l
+java:S1118":Add a private constructor to hide the implicit public one.(€¢Ä¾ıÿÿÿÿHŸŒRMAJORZ
+CODE_SMELL
+b
+java:S5413B")Verify that "remove()" is used correctly.(Ë€Ñùÿÿÿÿ8Á¨öÀû/HËRMAJORZ
+CODE_SMELL
+X
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼üH§ŒRMINORZ
+CODE_SMELL
+\
+java:S3740"/Provide the parametrized type for this generic.(”§¤éHŒRMAJORZ
+CODE_SMELL
+b
+java:S5413B")Verify that "remove()" is used correctly.(Ë€Ñùÿÿÿÿ8£åÿÀû/HÌRMAJORZ
+CODE_SMELL
+\
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕH©ŒRMINORZ
+CODE_SMELL
+t
+java:S1128";Remove this unused import 'java.time.temporal.ChronoField'.(£¬ù³øÿÿÿÿ8Á¨öÀû/H·RMINORZ
+CODE_SMELL
+s
+java:S1128"FRemove this unused import 'java.time.format.DateTimeFormatterBuilder'.(æëë¸H£ŒRMINORZ
+CODE_SMELL
+u
+java:S1854J"<Remove this useless assignment to local variable "feriados".(¦øû²ıÿÿÿÿ8ÙİüÁû/HÁ‘RMAJORZ
+CODE_SMELL
+f
+java:S1481J"-Remove this unused "feriados" local variable.(¦øû²ıÿÿÿÿ8ÙİüÁû/HÂ‘RMINORZ
+CODE_SMELL

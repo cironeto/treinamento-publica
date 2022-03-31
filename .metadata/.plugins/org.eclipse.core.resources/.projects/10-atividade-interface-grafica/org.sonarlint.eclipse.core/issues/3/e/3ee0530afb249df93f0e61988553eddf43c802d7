@@ -1,0 +1,10 @@
+
+d
+java:S1481"+Remove this unused "painel" local variable.(ÿºÄÇúÿÿÿÿ8ÑñÓÂû/Hˆ—RMINORZ
+CODE_SMELL
+n
+java:S1118":Add a private constructor to hide the implicit public one.(¨Üİ8ÑñÓÂû/HŠ—RMAJORZ
+CODE_SMELL
+s
+java:S1854":Remove this useless assignment to local variable "painel".(ÿºÄÇúÿÿÿÿ8ÑñÓÂû/H‹—RMAJORZ
+CODE_SMELL
