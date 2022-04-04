@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function mensagem(){
+        alert("olá")
+    }
+
+    function teclado(campo){
+        document.getElementById("texto").innerText = campo 
+    }
+
+    function cidade(valor){
+        switch(parseInt(valor)){
+            case 1: 
+            alert("Blumenau")
+            break
+            case 2: 
+            alert("Pinhal")
+            break
+            case 3: 
+            alert("Campinas")
+            break
+        }
+    }
+
+    
+    </script>
+</head>
+<body>
+
+    <button onclick="mensagem()">Clique aqui</button>
+
+    <hr>
+
+    <h1 id="texto"></h1>
+    <input type="text" onkeyup="teclado(this.value)">
+
+    <hr>
+
+    <select onchange="cidade(this.value)">
+        <option value="0">Selecione uma cidade</option>
+        <option value="1">Blumenau</option>
+        <option value="2">Pinhal</option>
+        <option value="3">Campinas</option>
+    </select>
+    
+</body>
+</html>

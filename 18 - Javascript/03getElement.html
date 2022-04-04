@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.onload = function(){
+            document.getElementsByTagName("p")[0].innerText = "Novo texto"
+
+            document.getElementsByClassName("texto")[0].style.color = "red"
+
+            document.getElementById("texto").innerText = "texto com id no js"
+        }
+    </script>
+
+</head>
+<body>
+    <p>Hello World!</p>
+    <p class="texto">Aprendendo JS</p>
+    <p id="texto">texto com id</p>
+</body>
+</html>
+
+
