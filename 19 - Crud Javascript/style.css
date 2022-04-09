@@ -1,10 +1,107 @@
-#login{
-    margin: 20px 10px;
-    width: 200px;
-    text-align: center;
-    display: block;
+#secaoAdmin,
+#secaoGerente,
+#secaoVendedor,
+#crudMarcasContainer,
+#crudUsuariosContainer,
+#crudProdutosContainer,
+#crudVendedoresContainer,
+#crudVendasContainer,
+#btnAlterarUsuario,
+#btnRemoverUsuario,
+#btnCancelarUsuario,
+#btnAlterarMarca,
+#btnRemoverMarca,
+#btnCancelarMarca,
+#btnAlterarProduto,
+#btnRemoverProduto,
+#btnCancelarProduto,
+#btnAlterarVendedor,
+#btnRemoverVendedor,
+#btnCancelarVendedor,
+#secaoEstatistica,
+#tabelaVendaPorVendedor
+{
+    display: none;
 }
 
-#btnEntrar{
+p {
+    font-size: 20px;
+}
+
+#bemvindo{
+    margin: 0px auto;
+}
+
+#loginForm {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+#btnEntrar {
     margin-top: 10px;
+}
+
+.botoesMenu {
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#tabelaUsuarios,
+#tabelaUsuario,
+#tabelaMarcas,
+#tabelaMarca,
+#tabelaVendedor,
+#tabelaVendedores,
+#tabelaVendas,
+#tabelaVenda,
+#crudEstatisticasContainer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btnLogout {
+    margin-left: 40px;
+}
+
+#crudUsuariosForm,
+#crudMarcasForm,
+#crudProdutosForm,
+#crudVendedoresForm,
+#crudVendasForm  {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cardsEstatisticas{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#divTabela {
+    margin-left: 30%;
+}
+
+img {
+    height: 100px;
+    margin-bottom: 30px;
 }

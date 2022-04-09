@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div ng-app="modulo" ng-controller="controller">
+        <h2>Dados</h2>
+        <form>
+            <input type="text" placeholder="nome" class="form-control" ng-model="campoNome">
+            <input type="text" placeholder="email" class="form-control"ng-model="campoEmail">
+            <input type="text" placeholder="telefone" class="form-control"ng-model="campoTelefone">
+            <input type="text" placeholder="cidade" class="form-control"ng-model="campoCidade">
+            <input type="text" placeholder="estado" class="form-control"ng-model="campoEstado">
+
+
+            <button type="button" class="btn btn-primary" ng-click="cadastrar()">Cadastrar</button>
+            <button type="button" class="btn btn-warning" ng-click="alterar()">Alterar</button>
+            <button type="button" class="btn btn-danger" ng-click="remover()">Remover</button>
+            <button type="button" class="btn btn-secondary" ng-click="limparCampos()">Cancelar</button>
+        </form>
+
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>Selecionar</th>
+                    </tr>
+                    <tr ng-repeat="p in pessoas track by $index">
+                        <td>{{$index + 1}}</td>
+                        <td>{{p.nome}}</td>
+                        <td>{{p.email}}</td>
+                        <td>{{p.telefone}}</td>
+                        <td>{{p.cidade}}</td>
+                        <td>{{p.estado}}</td>
+                        <td><button class="btn btn-success" ng-click="selecionar($index)">Selecionar</button></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        var app = angular.module("modulo", [])
+        app.controller("controller", function($scope){
+
+            $scope.pessoas = [
+                {
+                    "nome": "Ciro",
+                    "email": "ciro@mail.com",
+                    "telefone": "992582741",
+                    "cidade": "Blumenau",
+                    "estado": "SC"
+                },
+                {
+                    "nome": "Neto",
+                    "email": "neto@mail.com",
+                    "telefone": "999955555",
+                    "cidade": "Pinhal",
+                    "estado": "SP"
+                },
+                {
+                    "nome": "Amanda",
+                    "email": "amanda@mail.com",
+                    "telefone": "11552345",
+                    "cidade": "Campinas",
+                    "estado": "SP"
+                }
+            ]
+
+            $scope.indiceUsuarioSelecionado
+
+            $scope.cadastrar = function(){
+                $scope.pessoas.push({
+                    "nome": $scope.campoNome,
+                    "email": $scope.campoEmail,
+                    "telefone": $scope.campoTelefone,
+                    "cidade": $scope.campoCidade,
+                    "estado": $scope.campoEstado
+                }) 
+                $scope.limparCampos()               
+            }
+
+            $scope.alterar = function(){
+                $scope.pessoas[indiceUsuarioSelecionado] = {
+                    "nome": $scope.campoNome,
+                    "email": $scope.campoEmail,
+                    "telefone": $scope.campoTelefone,
+                    "cidade": $scope.campoCidade,
+                    "estado": $scope.campoEstado
+                } 
+                $scope.limparCampos()               
+            }
+
+            $scope.remover = function(){
+                $scope.pessoas.splice(indiceUsuarioSelecionado, 1)
+
+                $scope.limparCampos()               
+            }
+
+            $scope.selecionar = function(indice){
+                indiceUsuarioSelecionado = indice
+
+                $scope.campoNome = $scope.pessoas[indice].nome
+                $scope.campoEmail = $scope.pessoas[indice].email
+                $scope.campoTelefone = $scope.pessoas[indice].telefone
+                $scope.campoCidade = $scope.pessoas[indice].cidade
+                $scope.campoEstado = $scope.pessoas[indice].estado
+            }
+
+            $scope.limparCampos = function(){
+                $scope.campoNome = ""
+                $scope.campoEmail = ""
+                $scope.campoTelefone = ""
+                $scope.campoCidade = ""
+                $scope.campoEstado = ""
+            }
+
+        })
+
+
+    </script>
+
+</body>
+
+</html>

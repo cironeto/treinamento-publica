@@ -5,26 +5,309 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CRUD Produtos - Pubfuture</title>
 
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="crud.js"></script>
+
 </head>
 
 <body>
 
-    <div id="login">
-        <form>
-            <input type="text" id="username" placeholder="username" class="form-control" onkeyup="">
-            <input type="text" id="senha" placeholder="senha" class="form-control" onkeyup="">
+    <div id="loginContainer">
+        <form id="loginForm">
+            <img src="logo.jpg" alt="">
+            <div id="alertaLogin"></div>
 
-            <button type="button" id="btnEntrar" value="Entrar" class="btn btn-primary" onclick="">Entrar
+            <input type="text" id="usernameDigitado" placeholder="username" class="form-control"
+                onkeyup="ocultarAlertaUsuario()">
+            <input type="text" id="senhaDigitada" placeholder="senha" class="form-control"
+                onkeyup="ocultarAlertaUsuario()">
+
+            <button type="button" id="btnEntrar" value="Entrar" class="btn btn-primary"
+                onclick="login()">Entrar</button>
         </form>
     </div>
 
+    <section id="secaoAdmin">
+        <div class="botoesMenu">
+            <h1>Gerenciamento - Menu Administrador</h1>
+            <button type="button" id="btnUsuarios" value="Usuarios" class="btn btn-secondary btn-lg"
+                onclick="listarUsuarios()">Usuários</button>
+            <button type="button" id="btnMarcas" value="Marcas" class="btn btn-secondary btn-lg"
+                onclick="listarMarcas()">Marcas</button>
+            <button type="button" id="btnProdutos" value="Produtos" class="btn btn-secondary btn-lg"
+                onclick="listarProdutos()">Produtos</button>
+            <button type="button" id="btnVendas" value="Vendas" class="btn btn-secondary btn-lg"
+                onclick="listarVendas()">Vendas</button>
+            <button type="button" id="btnEstatisticas" value="Estatísticas" class="btn btn-secondary btn-lg"
+                onclick="mostraEstatisticas()">Estatísticas</button>
+            <button type="button" id="btnLogout" value="Logout" class="btn btn-outline-warning btn-lg"
+                onclick="logout()">Logout</button>
+        </div>
+    </section>
+
+    <section id="secaoGerente">
+        <div class="botoesMenu">
+            <h1>Gerenciamento - Menu Gerente</h1>
+            <button type="button" id="btnVendedores" value="Vendedores" class="btn btn-secondary btn-lg"
+                onclick="listarVendedores()">Vendedores</button>
+            <button type="button" id="btnProdutos" value="Produtos" class="btn btn-secondary btn-lg"
+                onclick="listarProdutos()">Produtos</button>
+            <button type="button" id="btnVendas" value="Vendas" class="btn btn-secondary btn-lg"
+                onclick="listarVendas()">Vendas</button>
+            <button type="button" id="btnLogout" value="Logout" class="btn btn-outline-warning btn-lg"
+                onclick="logout()">Logout</button>
+        </div>
+    </section>
+
+    <section id="secaoVendedor">
+        <div class="botoesMenu">
+            <h1>Gerenciamento - Menu Vendedor</h1>
+            <button type="button" id="btnVendas" value="Vendas" class="btn btn-secondary btn-lg"
+                onclick="listarVendas()">Vendas</button>
+            <button type="button" id="btnLogout" value="Logout" class="btn btn-outline-warning btn-lg"
+                onclick="logout()">Logout</button>
+        </div>
+    </section>
+
+    <!-- USUARIOS -->
+    <div id="crudUsuariosContainer">
+        <h2>Usuários</h2>
+        <form id="crudUsuariosForm">
+            <div id="alertaCrudUsuario"></div>
+
+            <input type="text" id="nomeUsuario" placeholder="nome" class="form-control"
+                onkeyup="ocultarAlertaUsuario()">
+            <input type="text" id="senhaUsuario" placeholder="senha" class="form-control"
+                onkeyup="ocultarAlertaUsuario()">
+            <select class="form-select" id="nivelUsuario">
+                <option value="" disabled selected hidden>nível</option>
+                <option>admin</option>
+                <option>vendedor</option>
+                <option>gerente</option>
+            </select>
+
+            <button type="button" id="btnCadastrarUsuario" value="Cadastrar" class="btn btn-primary"
+                onclick="cadastrarUsuario()">Cadastrar</button>
+            <button type="button" id="btnAlterarUsuario" value="Alterar" class="btn btn-warning"
+                onclick="alterarUsuario()">Alterar</button>
+            <button type="button" id="btnRemoverUsuario" value="Remover" class="btn btn-danger"
+                onclick="removerUsuario()">Remover</button>
+            <button type="button" id="btnCancelarUsuario" value="Cancelar" class="btn btn-secondary"
+                onclick="resetarCamposUsuarios()">Cancelar</button>
+        </form>
+
+        <div>
+            <table id="tabelaUsuario" class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Nível</th>
+                        <th>Selecionar</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabelaUsuarios"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- MARCAS -->
+    <div id="crudMarcasContainer">
+        <h2>Marcas</h2>
+        <form id="crudMarcasForm">
+            <div id="alertaCrudMarcas"></div>
+
+            <input type="text" id="nomeMarca" placeholder="nome" class="form-control" onkeyup="ocultarAlertaMarca()">
+
+            <button type="button" id="btnCadastrarMarca" value="Cadastrar" class="btn btn-primary"
+                onclick="cadastrarMarca()">Cadastrar</button>
+            <button type="button" id="btnAlterarMarca" value="Alterar" class="btn btn-warning"
+                onclick="alterarMarca()">Alterar</button>
+            <button type="button" id="btnRemoverMarca" value="Remover" class="btn btn-danger"
+                onclick="removerMarca()">Remover</button>
+            <button type="button" id="btnCancelarMarca" value="Cancelar" class="btn btn-secondary"
+                onclick="resetarCamposMarcas()">Cancelar</button>
+        </form>
+
+        <div>
+            <table id="tabelaMarca" class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Selecionar</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabelaMarcas"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- PRODUTOS -->
+    <div id="crudProdutosContainer">
+        <h2>Produtos</h2>
+        <form id="crudProdutosForm">
+            <div id="alertaCrudProdutos"></div>
+
+            <input type="text" id="nomeProduto" placeholder="nome" class="form-control"
+                onkeyup="ocultarAlertaProduto()">
+            <input type="number" id="valorProduto" placeholder="valor" class="form-control"
+                onkeyup="ocultarAlertaProduto()">
+            <select class="form-select" id="marcaProduto">
+                <option value="" disabled selected hidden>marca</option>
+                <option value="" id="optionMarca"></option>
+            </select>
+
+            <button type="button" id="btnCadastrarProduto" value="Cadastrar" class="btn btn-primary"
+                onclick="cadastrarProduto()">Cadastrar</button>
+            <button type="button" id="btnAlterarProduto" value="Alterar" class="btn btn-warning"
+                onclick="alterarProduto()">Alterar</button>
+            <button type="button" id="btnRemoverProduto" value="Remover" class="btn btn-danger"
+                onclick="removerProduto()">Remover</button>
+            <button type="button" id="btnCancelarProduto" value="Cancelar" class="btn btn-secondary"
+                onclick="resetarCamposProduto()">Cancelar</button>
+        </form>
+
+        <div>
+            <table id="tabelaProduto" class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Preço</th>
+                        <th>Marca</th>
+                        <th>Selecionar</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabelaProdutos"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- VENDEDORES -->
+    <div id="crudVendedoresContainer">
+        <h2>Vendedores</h2>
+        <form id="crudVendedoresForm">
+            <div id="alertaCrudVendedor"></div>
+
+            <input type="text" id="nomeVendedor" placeholder="nome" class="form-control"
+                onkeyup="ocultarAlertaVendedor()">
+            <input type="text" id="senhaVendedor" placeholder="senha" class="form-control"
+                onkeyup="ocultarAlertaVendedor()">
+
+            <button type="button" id="btnCadastrarVendedor" value="Cadastrar" class="btn btn-primary"
+                onclick="cadastrarVendedor()">Cadastrar</button>
+            <button type="button" id="btnAlterarVendedor" value="Alterar" class="btn btn-warning"
+                onclick="alterarVendedor()">Alterar</button>
+            <button type="button" id="btnRemoverVendedor" value="Remover" class="btn btn-danger"
+                onclick="removerVendedor()">Remover</button>
+            <button type="button" id="btnCancelarVendedor" value="Cancelar" class="btn btn-secondary"
+                onclick="resetarCamposVendedor()">Cancelar</button>
+        </form>
+
+        <div>
+            <table id="tabelaVendedor" class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Selecionar</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabelaVendedores"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- VENDAS -->
+    <div id="crudVendasContainer">
+        <h2>Vendas</h2>
+        <form id="crudVendasForm">
+            <div id="alertaVendas"></div>
+
+            <select class="form-select" id="listaVendedores">
+                <option value="" disabled selected hidden>vendedor</option>
+            </select>
+            <select class="form-select" id="listaProdutos">
+                <option value="" disabled selected hidden>produto</option>
+            </select>
+            <input type="number" id="valorProdutoVenda" placeholder="valor do produto" class="form-control"
+                onkeyup="ocultarAlertaVenda()">
+            <input type="number" id="quantidadeVenda" placeholder="quantidade" class="form-control"
+                onkeyup="ocultarAlertaVenda()">
+
+            <button type="button" id="btnCadastrarVenda" value="Cadastrar" class="btn btn-primary"
+                onclick="cadastrarVenda()">Cadastrar</button>
+            <button type="button" id="btnAlterarVenda" value="Alterar" class="btn btn-warning"
+                onclick="alterarVenda()">Alterar</button>
+            <button type="button" id="btnRemoverVenda" value="Remover" class="btn btn-danger"
+                onclick="removerVenda()">Remover</button>
+            <button type="button" id="btnCancelarVenda" value="Cancelar" class="btn btn-secondary"
+                onclick="resetarCamposVenda()">Cancelar</button>
+        </form>
+
+        <div>
+            <table id="tabelaVenda" class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Vendedor</th>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Valor</th>
+                        <th>Total Venda</th>
+                        <th>Selecionar</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabelaVendas"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ESTATISTICAS -->
+    <div id="secaoEstatistica">
+        <h2>Estatísticas</h2>
+
+        <div id="crudEstatisticasContainer">
+            <div id="cards">
+            </div>
+
+            <div id="divTabela">
+                <table id="tabelaVendaPorVendedor" class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Vendedor</th>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Valor</th>
+                            <th>Total Venda</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tabelaVendasPorVendedor"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
 </body>
+
+<script src="vendas.js"></script>
+<script src="crud.js"></script>
+<script src="login.js"></script>
+<script src="usuarios.js"></script>
+<script src="marcas.js"></script>
+<script src="produtos.js"></script>
+<script src="vendedores.js"></script>
+<script src="estatisticas.js"></script>
 
 </html>

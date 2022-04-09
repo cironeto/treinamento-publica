@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+    
+    <div ng-app="modulo" ng-controller="controller">
+        
+        <input type="text" ng-model="campo">
+        <button ng-click="cadastrar()">enviar</button>
+        <ul>
+            <li ng-repeat="n in nomes track by $index">{{$index + 1}} - {{n | uppercase}}</li>
+        </ul>
+
+        <p ng-repeat="n in nomes track by $index">{{$index + 1}} - {{n}}</p>
+    </div>
+
+    <script>
+        var app = angular.module("modulo", [])
+        app.controller("controller", function($scope){
+            
+            //criação de variavel, array
+            $scope.nomes = ["ciro", "neto", "amanda"]
+
+            //function cadastrar
+            $scope.cadastrar = function(){
+                $scope.nomes.push($scope.campo)
+            }
+
+        })
+
+
+    </script>
+</body>
+</html>

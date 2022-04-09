@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moedas</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+
+<body>
+
+    <div ng-app="modulo" ng-controller="controller">
+        <h3>Conversor de moeda (R$ -> ?)</h3>
+        <p>selecione uma moeda</p>
+        <select ng-model="moeda">
+            <option ng-repeat="m in moedas track by $index">{{m.moeda}}</option>
+        </select>
+        <input type="number" ng-model="valor">
+        <button ng-click="converterMoeda()">Converter</button>
+        <h3>Valor convertido: R$ {{conversao}}</h3>
+    </div>
+
+    <script>
+        var app = angular.module("modulo", [])
+        app.controller("controller", function ($scope) {
+
+            $scope.moedas = [
+                {
+                    "moeda": "Dólar USA",
+                    "cambio": 4.7
+                },
+                {
+                    "moeda": "Euro",
+                    "cambio": 5.2
+                },
+                {
+                    "moeda": "Libra",
+                    "cambio": 6.20
+                },
+                {
+                    "moeda": "Iene",
+                    "cambio": 0.038
+                },
+                {
+                    "moeda": "Peso Arg",
+                    "cambio": 0.042
+                }
+            ]
+
+            $scope.conversao = 0
+
+            $scope.converterMoeda = function () {
+                for (let i = 0; i < $scope.moedas.length; i++) {
+                    if ($scope.moeda == $scope.moedas[i].moeda) {
+                        $scope.conversao = $scope.valor * $scope.moedas[i].cambio
+                        console.log($scope.conversao)
+
+                    }
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

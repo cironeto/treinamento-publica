@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+    
+    <div ng-app="modulo" ng-controller="controller">
+        <table border="1">
+            <tr ng-repeat="v in vetor track by $index">
+                <td>{{v.id}}</td>
+                <td>{{v.userId}}</td>
+                <td>{{v.title}}</td>
+                <td>{{v.body}}</td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        var app = angular.module("modulo", [])
+        app.controller("controller", function($scope, $http){
+            $scope.vetor = []
+
+            $http.get("https://jsonplaceholder.typicode.com/posts")
+            .then(function(retornoApi){
+                $scope.vetor = retornoApi.data
+            })
+
+        })
+
+
+    </script>
+</body>
+</html>
