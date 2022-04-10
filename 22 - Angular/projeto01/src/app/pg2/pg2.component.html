@@ -1,0 +1,16 @@
+<!-- <input type="text" [(ngModel)]="campoNome">
+<h1>{{campoNome}}</h1> -->
+
+<form>
+    <input type="text" name="nome" [(ngModel)]="obj.nome">
+    <input type="text" name="idade" [(ngModel)]="obj.idade">
+    <h1>{{obj | json}}</h1>
+</form>
+
+<form [formGroup]="formulario" (submit)="enviar()">
+    <input type="text" name="nome" formControlName="nome">
+    <input type="text" name="idade" formControlName="idade">
+    <input type="submit" value="Enviar">
+    <h1>{{formulario.value | json}}</h1>
+</form>
+

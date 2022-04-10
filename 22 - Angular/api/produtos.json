@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "produto": "iPhone",
+      "marca": "Apple",
+      "valor": 50000,
+      "id": 3
+    },
+    {
+      "produto": "Moto G",
+      "marca": "morotola",
+      "valor": "2000",
+      "id": 4
+    },
+    {
+      "produto": "Redmi",
+      "marca": "Xiaomi",
+      "valor": "12",
+      "id": 6
+    }
+  ]
+}

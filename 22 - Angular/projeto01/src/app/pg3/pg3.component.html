@@ -1,0 +1,32 @@
+<form>
+    <input type="text" name="campoProduto" [(ngModel)]="inputProduto" placeholder="Produto" class="form-control">
+    <input type="text" name="campoMarca" [(ngModel)]="inputMarca" placeholder="Marca" class="form-control">
+    <input type="text" name="campoValor" [(ngModel)]="inputValor" placeholder="Valor" class="form-control">
+
+    <input type="button" *ngIf="btnVisivel" (click)="cadastrar()" value="Cadastrar" class="btn btn-primary">
+    <input type="button" *ngIf="!btnVisivel" (click)="alterar()" value="Alterar" class="btn btn-danger">
+    <input type="button" *ngIf="!btnVisivel" (click)="remover()" value="Remover" class="btn btn-warning">
+    <input type="button" *ngIf="!btnVisivel" (click)="cancelar()" value="Cancelar" class="btn btn-secondary">
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Produto</th>
+            <th>Marca</th>
+            <th>Valor</th>
+            <th>Selecionar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let produto of produtos">
+            <td>{{produto.id}}</td>
+            <td>{{produto.produto}}</td>
+            <td>{{produto.marca}}</td>
+            <td>{{produto.valor}}</td>
+            <td><button class="btn btn-success" value="" (click)="selecionarProduto(produto.id)">Selecionar</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
